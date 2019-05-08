@@ -1,3 +1,0 @@
-<map id="MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp" name="MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp">
-<area shape="rect" id="node3" href="$a00081.html" title="{MKdev.MqttForUnity.MqttConnector\n|+ BrokerIp\l+ username\l+ password\l&#45; client\l&#45; DictTopicReceiver\l&#45; eventQueue\l|+ PublishMessage()\l+ AddTopicReceiver()\l+ AddTopicReceiver()\l&#45; Start()\l&#45; client_MqttMsgPublishReceived()\l&#45; workQueueAndCall()\l}" alt="" coords="134,132,363,356"/>
-</map>
