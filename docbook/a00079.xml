@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00079">
+<title>MKdev::MqttForUnity::MqttBricks::BrickEditor</title>
+        <section>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00144">MKdev::MqttForUnity::MqttBricks::BrickEditor::AbsDoActionByMqttTopicValueEditor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00148">MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicFloatValueEditor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00152">MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicIntValueEditor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00156">MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicStringValueEditor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

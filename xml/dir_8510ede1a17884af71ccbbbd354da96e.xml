@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_8510ede1a17884af71ccbbbd354da96e" kind="dir">
+    <compoundname>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic</compoundname>
+    <innerfile refid="a00008">EnumCompareOperator.cs</innerfile>
+    <innerfile refid="a00011">EnumStringCompareOperator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/"/>
+  </compounddef>
+</doxygen>

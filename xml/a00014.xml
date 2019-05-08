@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00014" kind="file" language="C#">
+    <compoundname>EnumMqttQualityOfService.cs</compoundname>
+    <innernamespace refid="a00076">MKdev::MqttForUnity</innernamespace>
+    <innernamespace refid="a00083">System</innernamespace>
+    <innernamespace refid="a00084">System::Collections::Generic</innernamespace>
+    <innernamespace refid="a00085">System::Linq</innernamespace>
+    <innernamespace refid="a00086">System::Text</innernamespace>
+    <innernamespace refid="a00087">System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00083" kindref="compound">System</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00083" kindref="compound">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00083" kindref="compound">System</ref>.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00083" kindref="compound">System</ref>.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00083" kindref="compound">System</ref>.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00075" kindref="compound">MKdev</ref>.MqttForUnity</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="a00076_1a17d08c4793f11a9082c9806004c46379" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379" kindref="member">EnumMqttQualityOfService</ref><sp/>:<sp/>byte</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379a63ad7814141e0290fa460727b356952c" kindref="member">QOS_LEVEL_AT_MOST_ONCE</ref>=0x00,<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379aa5509314ef54911bb58f376d9660e876" kindref="member">QOS_LEVEL_AT_LEAST_ONCE</ref><sp/>=<sp/>0x01,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3" kindref="member">QOS_LEVEL_EXACTLY_ONCE</ref><sp/>=<sp/>0x02</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/EnumMqttQualityOfService.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00112" kind="class" language="C#" prot="public">
+    <compoundname>MKdev::MqttForUnity::MqttConnector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="a00160" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="a00112_1ae14036ba5c618737bf1d9db90c624623" prot="public" static="no" mutable="no">
+        <type><ref refid="a00164" kindref="compound">AbsServerConfig</ref></type>
+        <definition>AbsServerConfig MKdev.MqttForUnity.MqttConnector.ServerConfig</definition>
+        <argsstring></argsstring>
+        <name>ServerConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="17" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a00112_1aa74939b2d3140f0abd4ff83e5bb60373" prot="private" static="no" mutable="no">
+        <type>MqttClient</type>
+        <definition>MqttClient MKdev.MqttForUnity.MqttConnector.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="19" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a00112_1a8464d26b31f16aa1ee71cfd61e415329" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, List&lt; <ref refid="a00104" kindref="compound">IMqttTopicReceiver</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;string, List&lt;IMqttTopicReceiver&gt; &gt; MKdev.MqttForUnity.MqttConnector.DictTopicReceiver</definition>
+        <argsstring></argsstring>
+        <name>DictTopicReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="20" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a00112_1a1807e97240011a8d4c9057223f39408e" prot="private" static="no" mutable="no">
+        <type>Queue&lt; MqttMsgPublishEventArgs &gt;</type>
+        <definition>Queue&lt;MqttMsgPublishEventArgs&gt; MKdev.MqttForUnity.MqttConnector.eventQueue</definition>
+        <argsstring></argsstring>
+        <name>eventQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="22" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a00112_1a27f034f1c1641bf97edac34fa394ddc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttConnector.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="24" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="24" bodyend="56"/>
+        <references refid="a00164_1ac0764e35ad02b490df85c6fcc5707101">MKdev.ServerConfig.AbsServerConfig.GetServerIp</references>
+        <references refid="a00164_1af14a522f512c2ddf758da24ca79f7a59">MKdev.ServerConfig.AbsServerConfig.GetUsername</references>
+        <references refid="a00164_1a3556535566f59889c8fbb275ca443d67">MKdev.ServerConfig.AbsServerConfig.GetPassword</references>
+      </memberdef>
+      <memberdef kind="function" id="a00112_1a4177f866f40da12d9a8753dc5391ec11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttConnector.client_MqttMsgPublishReceived</definition>
+        <argsstring>(object sender, MqttMsgPublishEventArgs e)</argsstring>
+        <name>client_MqttMsgPublishReceived</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MqttMsgPublishEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="58" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="a00112_1a64694beb20f25a360d26c7a68a7997c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MKdev.MqttForUnity.MqttConnector.workQueueAndCall</definition>
+        <argsstring>()</argsstring>
+        <name>workQueueAndCall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="65" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="65" bodyend="87"/>
+        <references refid="a00104_1a1a1713dea78f19a701a2fd7800e2fca7">MKdev.MqttForUnity.IMqttTopicReceiver.OnReceivedMessage</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00112_1a5c3c0346f1f3d04201a69246e8c426b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttConnector.PublishMessage</definition>
+        <argsstring>(string topic, string Message, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE)</argsstring>
+        <name>PublishMessage</name>
+        <param>
+          <type>string</type>
+          <declname>topic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Message</declname>
+        </param>
+        <param>
+          <type><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379" kindref="member">EnumMqttQualityOfService</ref></type>
+          <declname>MqttQOS_Level</declname>
+          <defval><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3" kindref="member">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="89" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="89" bodyend="94"/>
+        <referencedby refid="a00100_1ac08746a89d2202aaea3692709174a7bb" compoundref="a00005" startline="12" endline="18">MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="a00112_1ac0eb64a79a748300664caf7c4908a688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttConnector.AddTopicReceiver</definition>
+        <argsstring>(string topic, IMqttTopicReceiver receiver, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE)</argsstring>
+        <name>AddTopicReceiver</name>
+        <param>
+          <type>string</type>
+          <declname>topic</declname>
+        </param>
+        <param>
+          <type><ref refid="a00104" kindref="compound">IMqttTopicReceiver</ref></type>
+          <declname>receiver</declname>
+        </param>
+        <param>
+          <type><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379" kindref="member">EnumMqttQualityOfService</ref></type>
+          <declname>MqttQOS_Level</declname>
+          <defval><ref refid="a00076_1a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3" kindref="member">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="96" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="96" bodyend="99"/>
+        <referencedby refid="a00116_1ab5d9e5dab2fa3262c5cadaea1b74ce19" compoundref="a00026" startline="19" endline="22">MKdev.MqttForUnity.MqttTopicDoAction.SetupLate</referencedby>
+        <referencedby refid="a00120_1a475856e7b3111e34f3a827b8118c241a" compoundref="a00029" startline="16" endline="19">MKdev.MqttForUnity.MqttTopicToConsole.SetupLate</referencedby>
+        <referencedby refid="a00124_1a9855d2813298bae32711270687651140" compoundref="a00032" startline="19" endline="23">MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.SetupLate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="a00112_1aeaabea91149d8efec82685dac108beef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttConnector.AddTopicReceiver</definition>
+        <argsstring>(string topic, IMqttTopicReceiver receiver, byte MqttQOS_Level)</argsstring>
+        <name>AddTopicReceiver</name>
+        <param>
+          <type>string</type>
+          <declname>topic</declname>
+        </param>
+        <param>
+          <type><ref refid="a00104" kindref="compound">IMqttTopicReceiver</ref></type>
+          <declname>receiver</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>MqttQOS_Level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="101" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="101" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>It connects the UnityScene with the Broker </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="140">
+        <label>MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon</label>
+        <link refid="a00160"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="138">
+        <label>MKdev.MqttForUnity.MqttConnector</label>
+        <link refid="a00112"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="144">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="142">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="143">
+        <label>MKdev.ServerConfig.AbsServerConfig</label>
+        <link refid="a00164"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>MKdev.MqttForUnity.MqttConnector</label>
+        <link refid="a00112"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>+ServerConfig</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" line="16" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttConnector.cs" bodystart="15" bodyend="123"/>
+    <listofallmembers>
+      <member refid="a00112_1ac0eb64a79a748300664caf7c4908a688" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>AddTopicReceiver</name></member>
+      <member refid="a00112_1aeaabea91149d8efec82685dac108beef" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>AddTopicReceiver</name></member>
+      <member refid="a00112_1aa74939b2d3140f0abd4ff83e5bb60373" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>client</name></member>
+      <member refid="a00112_1a4177f866f40da12d9a8753dc5391ec11" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>client_MqttMsgPublishReceived</name></member>
+      <member refid="a00112_1a8464d26b31f16aa1ee71cfd61e415329" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>DictTopicReceiver</name></member>
+      <member refid="a00112_1a1807e97240011a8d4c9057223f39408e" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>eventQueue</name></member>
+      <member refid="a00112_1a5c3c0346f1f3d04201a69246e8c426b0" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>PublishMessage</name></member>
+      <member refid="a00112_1ae14036ba5c618737bf1d9db90c624623" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>ServerConfig</name></member>
+      <member refid="a00112_1a27f034f1c1641bf97edac34fa394ddc6" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>Start</name></member>
+      <member refid="a00112_1a64694beb20f25a360d26c7a68a7997c3" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttConnector</scope><name>workQueueAndCall</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00127" kind="class" language="C#" prot="public">
+    <compoundname>MKdev::ServerConfig::ConfigFromFile</compoundname>
+    <basecompoundref refid="a00123" prot="public" virt="non-virtual">MKdev.ServerConfig.AbsServerConfig</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00127_1a3aa53f9e794056512c1fe3e57813317e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string MKdev.ServerConfig.ConfigFromFile.GetServerIp</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerIp</name>
+        <reimplements refid="a00123_1ac0764e35ad02b490df85c6fcc5707101">GetServerIp</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" line="6" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="a00127_1a4c95e00150b3e76aad794681cbaa95c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string MKdev.ServerConfig.ConfigFromFile.GetPassword</definition>
+        <argsstring>()</argsstring>
+        <name>GetPassword</name>
+        <reimplements refid="a00123_1a3556535566f59889c8fbb275ca443d67">GetPassword</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" line="11" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="a00127_1a6600c8052bef0b4ee36554dda96225b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string MKdev.ServerConfig.ConfigFromFile.GetUsername</definition>
+        <argsstring>()</argsstring>
+        <name>GetUsername</name>
+        <reimplements refid="a00123_1af14a522f512c2ddf758da24ca79f7a59">GetUsername</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" line="16" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>AbsServerConfig</label>
+        <link refid="a00123"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="6">
+        <label>MKdev.ServerConfig.ConfigFromFile</label>
+        <link refid="a00127"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>AbsServerConfig</label>
+        <link refid="a00123"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="9">
+        <label>MKdev.ServerConfig.ConfigFromFile</label>
+        <link refid="a00127"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" line="5" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/ConfigFromFile.cs" bodystart="4" bodyend="20"/>
+    <listofallmembers>
+      <member refid="a00127_1a4c95e00150b3e76aad794681cbaa95c0" prot="public" virt="virtual"><scope>MKdev::ServerConfig::ConfigFromFile</scope><name>GetPassword</name></member>
+      <member refid="a00127_1a3aa53f9e794056512c1fe3e57813317e" prot="public" virt="virtual"><scope>MKdev::ServerConfig::ConfigFromFile</scope><name>GetServerIp</name></member>
+      <member refid="a00127_1a6600c8052bef0b4ee36554dda96225b3" prot="public" virt="virtual"><scope>MKdev::ServerConfig::ConfigFromFile</scope><name>GetUsername</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00110">
+<title>MKdev::MqttForUnity::MqttConnector class Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::MqttConnector</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00109.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::MqttConnector</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00108.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>AbsServerConfig ServerConfig</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>MqttClient client</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Dictionary&lt; string, List&lt; IMqttTopicReceiver &gt; &gt; DictTopicReceiver</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Queue&lt; MqttMsgPublishEventArgs &gt; eventQueue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00110_1a27f034f1c1641bf97edac34fa394ddc6">Start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00110_1a4177f866f40da12d9a8753dc5391ec11">client_MqttMsgPublishReceived</link> (
+object sender, MqttMsgPublishEventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IEnumerator <link linkend="a00110_1a64694beb20f25a360d26c7a68a7997c3">workQueueAndCall</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00110_1a5c3c0346f1f3d04201a69246e8c426b0">PublishMessage</link> (
+string topic, string Message, <link linkend="a00076_1a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</link> MqttQOS_Level)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00110_1ac0eb64a79a748300664caf7c4908a688">AddTopicReceiver</link> (
+string topic, <link linkend="a00102">IMqttTopicReceiver</link> receiver, <link linkend="a00076_1a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</link> MqttQOS_Level)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00110_1aeaabea91149d8efec82685dac108beef">AddTopicReceiver</link> (
+string topic, <link linkend="a00102">IMqttTopicReceiver</link> receiver, byte MqttQOS_Level)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>It connects the UnityScene with the Broker </para>
+                <para>Definition at line 16 of file MqttConnector.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>MqttConnector.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="a00110_1a27f034f1c1641bf97edac34fa394ddc6">
+                <title>void MKdev.MqttForUnity.MqttConnector.Start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00110_1a4177f866f40da12d9a8753dc5391ec11">
+                <title>void MKdev.MqttForUnity.MqttConnector.client_MqttMsgPublishReceived (object sender, MqttMsgPublishEventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00110_1a64694beb20f25a360d26c7a68a7997c3">
+                <title>IEnumerator MKdev.MqttForUnity.MqttConnector.workQueueAndCall ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00110_1a5c3c0346f1f3d04201a69246e8c426b0">
+                <title>void MKdev.MqttForUnity.MqttConnector.PublishMessage (string topic, string Message, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00110_1ac0eb64a79a748300664caf7c4908a688">
+                <title>void MKdev.MqttForUnity.MqttConnector.AddTopicReceiver (string topic, IMqttTopicReceiver receiver, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00110_1aeaabea91149d8efec82685dac108beef">
+                <title>void MKdev.MqttForUnity.MqttConnector.AddTopicReceiver (string topic, IMqttTopicReceiver receiver, byte MqttQOS_Level)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00079" kind="namespace" language="C#">
+    <compoundname>MKdev::MqttForUnity::MqttBricks::BrickEditor</compoundname>
+    <innerclass refid="a00144" prot="public">MKdev::MqttForUnity::MqttBricks::BrickEditor::AbsDoActionByMqttTopicValueEditor</innerclass>
+    <innerclass refid="a00148" prot="public">MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicFloatValueEditor</innerclass>
+    <innerclass refid="a00152" prot="public">MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicIntValueEditor</innerclass>
+    <innerclass refid="a00156" prot="public">MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicStringValueEditor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor/AbsDoActionByMqttTopicValueEditor.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

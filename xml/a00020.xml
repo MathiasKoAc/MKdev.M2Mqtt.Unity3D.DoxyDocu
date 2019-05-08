@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00020" kind="file" language="C#">
+    <compoundname>InteractionEvent.cs</compoundname>
+    <innerclass refid="a00108" prot="public">MKdev::InteractionEvent</innerclass>
+    <innernamespace refid="a00075">MKdev</innernamespace>
+    <innernamespace refid="a00088">UnityEngine::Events</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00082" kindref="compound">UnityEngine</ref>.Events;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00075" kindref="compound">MKdev</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>[<ref refid="a00083" kindref="compound">System</ref>.Serializable]</highlight></codeline>
+<codeline lineno="6" refid="a00108" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a00108" kindref="compound">InteractionEvent</ref><sp/>:<sp/>UnityEvent<sp/>{<sp/>};</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/InteractionEvent.cs"/>
+  </compounddef>
+</doxygen>

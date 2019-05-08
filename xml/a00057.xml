@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00057" kind="namespace" language="C#">
+    <compoundname>MKdev</compoundname>
+    <innerclass refid="a00087" prot="public">MKdev::InteractionEvent</innerclass>
+    <innernamespace refid="a00059">MKdev::Logic</innernamespace>
+    <innernamespace refid="a00058">MKdev::MqttForUnity</innernamespace>
+    <innernamespace refid="a00061">MKdev::ServerConfig</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

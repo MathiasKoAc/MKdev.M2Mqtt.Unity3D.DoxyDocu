@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00042">
+<title>MKdev::MqttForUnity::IMqttTopicReceiver interface Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::IMqttTopicReceiver</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00041.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::IMqttTopicReceiver</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00040.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00042_1a1a1713dea78f19a701a2fd7800e2fca7">OnReceivedMessage</link> (
+string topic, byte [] message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="a00042_1a1a1713dea78f19a701a2fd7800e2fca7">
+                <title>void MKdev.MqttForUnity.IMqttTopicReceiver.OnReceivedMessage (string topic, byte[] message)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

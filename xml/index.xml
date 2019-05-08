@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="a00124" kind="class"><name>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</name>
+    <member refid="a00124_1a37f0fae3c5e53112257c7e654c26556f" kind="variable"><name>MqttCon</name></member>
+    <member refid="a00124_1aac6d6b031cebbd50e2e5e863397c0942" kind="variable"><name>onStart</name></member>
+    <member refid="a00124_1aa86a48f7eebe4706706dfaae3ca4f893" kind="variable"><name>publishTopic</name></member>
+    <member refid="a00124_1a4fd1d6816a21959d439c3448af47789b" kind="function"><name>Start</name></member>
+    <member refid="a00124_1a9855d2813298bae32711270687651140" kind="function"><name>SetupLate</name></member>
+    <member refid="a00124_1ab4aa2bde3bde4da80f9e693b8929ab8a" kind="function"><name>OnReceivedMessage</name></member>
+    <member refid="a00124_1a9335904c3d3a1a7ff0e972c1a5bfedc7" kind="function"><name>compareOk</name></member>
+  </compound>
+  <compound refid="a00144" kind="class"><name>MKdev::MqttForUnity::MqttBricks::BrickEditor::AbsDoActionByMqttTopicValueEditor</name>
+    <member refid="a00144_1a23ef9618017d53983b007def1a272723" kind="function"><name>OnInspectorGUI</name></member>
+  </compound>
+  <compound refid="a00164" kind="class"><name>MKdev::ServerConfig::AbsServerConfig</name>
+    <member refid="a00164_1ac0764e35ad02b490df85c6fcc5707101" kind="function"><name>GetServerIp</name></member>
+    <member refid="a00164_1a3556535566f59889c8fbb275ca443d67" kind="function"><name>GetPassword</name></member>
+    <member refid="a00164_1af14a522f512c2ddf758da24ca79f7a59" kind="function"><name>GetUsername</name></member>
+  </compound>
+  <compound refid="a00168" kind="class"><name>MKdev::ServerConfig::ConfigDetail</name>
+    <member refid="a00168_1a4ae5db2589b86138407690bf508b19ac" kind="variable"><name>ServerIp</name></member>
+    <member refid="a00168_1a78b70cd0d1874ca06ad938be1a7b5aa6" kind="variable"><name>Username</name></member>
+    <member refid="a00168_1afa19dc553ee186190cf31f78b03d5164" kind="variable"><name>Password</name></member>
+    <member refid="a00168_1ad2264769ad7199d4d063aef32c1ddc92" kind="function"><name>ConfigDetail</name></member>
+    <member refid="a00168_1a18637b2ea0da72707301099340451f60" kind="function"><name>ConfigDetail</name></member>
+  </compound>
+  <compound refid="a00180" kind="class"><name>MKdev::ServerConfig::ConfigEditor::ConfigFromFileEditor</name>
+    <member refid="a00180_1a73549fc3a14f1e277d656f43eab46fba" kind="function"><name>OnInspectorGUI</name></member>
+  </compound>
+  <compound refid="a00172" kind="class"><name>MKdev::ServerConfig::ConfigFromJSONFile</name>
+    <member refid="a00172_1a8c33194abed209a069ac9c31e5170b37" kind="variable"><name>ServerIp</name></member>
+    <member refid="a00172_1a90660e65027f97acc16468483edf5eef" kind="variable"><name>Username</name></member>
+    <member refid="a00172_1ac264958ad9c0c3da54e37dc5b1d3886a" kind="variable"><name>Password</name></member>
+    <member refid="a00172_1a4f8bbd98c9e3f61c01d96224fc4bfeb6" kind="variable"><name>filePath</name></member>
+    <member refid="a00172_1a579e9852abc2c91f115e1f7a72bfd3e6" kind="variable"><name>onEnableReadFromFile</name></member>
+    <member refid="a00172_1a6fa9ccd2aa2d927b86867062b4ff85b3" kind="function"><name>WriteToFile</name></member>
+    <member refid="a00172_1ad8234fbfd161ba3d79621c14499361a0" kind="function"><name>ReadFromFile</name></member>
+    <member refid="a00172_1ad174cabf701c0bf9ccea77fa0de85e44" kind="function"><name>OnEnable</name></member>
+    <member refid="a00172_1a98ac95438b9b7325e14a97fd97eee320" kind="function"><name>GetServerIp</name></member>
+    <member refid="a00172_1a9a016678ad20c5f2df937a1a6cd65843" kind="function"><name>GetPassword</name></member>
+    <member refid="a00172_1aa533179ad3d54533008f06e87c7c0d3b" kind="function"><name>GetUsername</name></member>
+  </compound>
+  <compound refid="a00176" kind="class"><name>MKdev::ServerConfig::ConfigObject</name>
+    <member refid="a00176_1abd1b452580862efec12a441be8c392b4" kind="variable"><name>ServerIp</name></member>
+    <member refid="a00176_1a021e295c536a31dfd8ec0d46e69be1c4" kind="variable"><name>Username</name></member>
+    <member refid="a00176_1a5a8f268ef18c34d27942f15c915d5110" kind="variable"><name>Password</name></member>
+    <member refid="a00176_1a69a723fb9dd511fc20b2cd3896d64dda" kind="function"><name>GetServerIp</name></member>
+    <member refid="a00176_1a3db7403aac5884992e6c99ea0ddc578e" kind="function"><name>GetUsername</name></member>
+    <member refid="a00176_1aa113b25f641bae42eb19f38c67d577d5" kind="function"><name>GetPassword</name></member>
+  </compound>
+  <compound refid="a00096" kind="class"><name>MKdev::MqttForUnity::MqttExample::CreateObject</name>
+    <member refid="a00096_1af85affbff0d480a072870c7b4bc61322" kind="variable"><name>objectToCreate</name></member>
+    <member refid="a00096_1a652d2919796a5a2b36a7ad9c87baf808" kind="variable"><name>transformPosition</name></member>
+    <member refid="a00096_1aec8902eb4a68637c4eeb1fba7a887a41" kind="variable"><name>newGameObject</name></member>
+    <member refid="a00096_1a8a13c768bfd6e56e8d312b2af27df1ed" kind="function"><name>CreateIt</name></member>
+  </compound>
+  <compound refid="a00128" kind="class"><name>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicArives</name>
+    <member refid="a00128_1af1fde7a67482f0e3df2379a957dacacc" kind="function"><name>compareOk</name></member>
+  </compound>
+  <compound refid="a00132" kind="class"><name>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicFloatValue</name>
+    <member refid="a00132_1a07883881cd82804bc207a8791ecea714" kind="variable"><name>Compare</name></member>
+    <member refid="a00132_1a1d4a74eb0cd56f2c1b4d02375004feec" kind="variable"><name>IntValue</name></member>
+    <member refid="a00132_1a7162d52c9f215c5b427dd40aa056c30b" kind="function"><name>compareOk</name></member>
+  </compound>
+  <compound refid="a00148" kind="class"><name>MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicFloatValueEditor</name>
+  </compound>
+  <compound refid="a00136" kind="class"><name>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</name>
+    <member refid="a00136_1a5700262be8a36d9281cfc5d416467422" kind="variable"><name>Compare</name></member>
+    <member refid="a00136_1ab8fd9d52abb56ea6c4be44449779b23d" kind="variable"><name>IntValue</name></member>
+    <member refid="a00136_1a736cc657bbdb1c2299f84981dd1ef704" kind="function"><name>compareOk</name></member>
+  </compound>
+  <compound refid="a00152" kind="class"><name>MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicIntValueEditor</name>
+  </compound>
+  <compound refid="a00140" kind="class"><name>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicStringValue</name>
+    <member refid="a00140_1ab2003058dd7bb27fc0f1c54105c2dc45" kind="variable"><name>Compare</name></member>
+    <member refid="a00140_1a341ffba041a7a5f85f5f483779d0c63a" kind="variable"><name>StrValue</name></member>
+    <member refid="a00140_1a2ff45da2076e28e7409ede84b8992fb4" kind="function"><name>compareOk</name></member>
+  </compound>
+  <compound refid="a00156" kind="class"><name>MKdev::MqttForUnity::MqttBricks::BrickEditor::DoActionByMqttTopicStringValueEditor</name>
+  </compound>
+  <compound refid="a00104" kind="interface"><name>MKdev::MqttForUnity::IMqttTopicReceiver</name>
+    <member refid="a00104_1a1a1713dea78f19a701a2fd7800e2fca7" kind="function"><name>OnReceivedMessage</name></member>
+  </compound>
+  <compound refid="a00108" kind="class"><name>MKdev::InteractionEvent</name>
+  </compound>
+  <compound refid="a00112" kind="class"><name>MKdev::MqttForUnity::MqttConnector</name>
+    <member refid="a00112_1ae14036ba5c618737bf1d9db90c624623" kind="variable"><name>ServerConfig</name></member>
+    <member refid="a00112_1aa74939b2d3140f0abd4ff83e5bb60373" kind="variable"><name>client</name></member>
+    <member refid="a00112_1a8464d26b31f16aa1ee71cfd61e415329" kind="variable"><name>DictTopicReceiver</name></member>
+    <member refid="a00112_1a1807e97240011a8d4c9057223f39408e" kind="variable"><name>eventQueue</name></member>
+    <member refid="a00112_1a27f034f1c1641bf97edac34fa394ddc6" kind="function"><name>Start</name></member>
+    <member refid="a00112_1a4177f866f40da12d9a8753dc5391ec11" kind="function"><name>client_MqttMsgPublishReceived</name></member>
+    <member refid="a00112_1a64694beb20f25a360d26c7a68a7997c3" kind="function"><name>workQueueAndCall</name></member>
+    <member refid="a00112_1a5c3c0346f1f3d04201a69246e8c426b0" kind="function"><name>PublishMessage</name></member>
+    <member refid="a00112_1ac0eb64a79a748300664caf7c4908a688" kind="function"><name>AddTopicReceiver</name></member>
+    <member refid="a00112_1aeaabea91149d8efec82685dac108beef" kind="function"><name>AddTopicReceiver</name></member>
+  </compound>
+  <compound refid="a00160" kind="class"><name>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</name>
+    <member refid="a00160_1a264d201ca81de79dbc6f863e7eb51794" kind="variable"><name>s_Instance</name></member>
+    <member refid="a00160_1a42443cabee1dca529d99975e979a08f2" kind="function"><name>GetInstance</name></member>
+    <member refid="a00160_1ac380c927394bb32b1b48106e363a9bd4" kind="function"><name>OnApplicationQuit</name></member>
+  </compound>
+  <compound refid="a00116" kind="class"><name>MKdev::MqttForUnity::MqttTopicDoAction</name>
+    <member refid="a00116_1afcdc0c19293d59486eb50102518e8f5d" kind="variable"><name>MqttCon</name></member>
+    <member refid="a00116_1a2d8724518f7638b924cb800bcdf8a2fc" kind="variable"><name>publishTopic</name></member>
+    <member refid="a00116_1a97a99e3bc68b35ad55357c8d5cf35a3d" kind="variable"><name>onStart</name></member>
+    <member refid="a00116_1a3e9fbeb797a647133715798e1514452f" kind="function"><name>Start</name></member>
+    <member refid="a00116_1ab5d9e5dab2fa3262c5cadaea1b74ce19" kind="function"><name>SetupLate</name></member>
+    <member refid="a00116_1ac4b78a35e4445d46a498f2ae68c463d3" kind="function"><name>OnReceivedMessage</name></member>
+  </compound>
+  <compound refid="a00120" kind="class"><name>MKdev::MqttForUnity::MqttTopicToConsole</name>
+    <member refid="a00120_1a845fdc6f59fb83b60499142d919a9e4c" kind="variable"><name>MqttCon</name></member>
+    <member refid="a00120_1a250e1aa752717045dfdf37c63fde9629" kind="variable"><name>publishTopic</name></member>
+    <member refid="a00120_1ada7296d6d3e476b5d4432b84fbabb7cd" kind="function"><name>Start</name></member>
+    <member refid="a00120_1a475856e7b3111e34f3a827b8118c241a" kind="function"><name>SetupLate</name></member>
+    <member refid="a00120_1a489e45339ae4d22a2b81862df0de3e46" kind="function"><name>OnReceivedMessage</name></member>
+    <member refid="a00120_1aca2f942c93b3ae3306a364456f187790" kind="function"><name>OnReceivedMessage</name></member>
+  </compound>
+  <compound refid="a00100" kind="class"><name>MKdev::MqttForUnity::MqttExample::OnGuiMqttBsp</name>
+    <member refid="a00100_1aba0622ccdb8ef23eba84b8a035ddbdc9" kind="variable"><name>MqttCon</name></member>
+    <member refid="a00100_1a1b51ad5bb61b0534f5d5838b2f06cb92" kind="variable"><name>publishTopic</name></member>
+    <member refid="a00100_1a2688ed9fd45fce9fb17c7b2b406a3e7f" kind="variable"><name>publishString</name></member>
+    <member refid="a00100_1ac08746a89d2202aaea3692709174a7bb" kind="function"><name>OnGUI</name></member>
+  </compound>
+  <compound refid="a00075" kind="namespace"><name>MKdev</name>
+  </compound>
+  <compound refid="a00077" kind="namespace"><name>MKdev::Logic</name>
+    <member refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46ae" kind="enum"><name>EnumCompareOperator</name></member>
+    <member refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea465289687a70db7aa7217cc240c29f0f" kind="enumvalue"><name>equal</name></member>
+    <member refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea23394313d75148a01ac834b289a0dd91" kind="enumvalue"><name>smaller</name></member>
+    <member refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea7de99d55a70b4e1215218f00d95a9720" kind="enumvalue"><name>bigger</name></member>
+    <member refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea691f2a76d0a7c8b633520688aff05a1b" kind="enumvalue"><name>smallerOr</name></member>
+    <member refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea54b6d24a10aab305f85ea67a8605cdb7" kind="enumvalue"><name>biggerOr</name></member>
+    <member refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73" kind="enum"><name>EnumStringCompareOperator</name></member>
+    <member refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73a465289687a70db7aa7217cc240c29f0f" kind="enumvalue"><name>equal</name></member>
+    <member refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73ab3a556017ef6a3f64182b803957cb0d5" kind="enumvalue"><name>equalIgnoreCase</name></member>
+    <member refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73a80bfff5241ffe1f0c9eb31d4e01a3581" kind="enumvalue"><name>notEqual</name></member>
+    <member refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73a3373ea551e5f1bf751da09586f4aac9d" kind="enumvalue"><name>notEqualIgnoreCase</name></member>
+  </compound>
+  <compound refid="a00076" kind="namespace"><name>MKdev::MqttForUnity</name>
+    <member refid="a00076_1a17d08c4793f11a9082c9806004c46379" kind="enum"><name>EnumMqttQualityOfService</name></member>
+    <member refid="a00076_1a17d08c4793f11a9082c9806004c46379a63ad7814141e0290fa460727b356952c" kind="enumvalue"><name>QOS_LEVEL_AT_MOST_ONCE</name></member>
+    <member refid="a00076_1a17d08c4793f11a9082c9806004c46379aa5509314ef54911bb58f376d9660e876" kind="enumvalue"><name>QOS_LEVEL_AT_LEAST_ONCE</name></member>
+    <member refid="a00076_1a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3" kind="enumvalue"><name>QOS_LEVEL_EXACTLY_ONCE</name></member>
+  </compound>
+  <compound refid="a00078" kind="namespace"><name>MKdev::MqttForUnity::MqttBricks</name>
+  </compound>
+  <compound refid="a00079" kind="namespace"><name>MKdev::MqttForUnity::MqttBricks::BrickEditor</name>
+  </compound>
+  <compound refid="a00074" kind="namespace"><name>MKdev::MqttForUnity::MqttExample</name>
+  </compound>
+  <compound refid="a00080" kind="namespace"><name>MKdev::ServerConfig</name>
+  </compound>
+  <compound refid="a00081" kind="namespace"><name>MKdev::ServerConfig::ConfigEditor</name>
+  </compound>
+  <compound refid="a00083" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="a00091" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="a00084" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="a00085" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="a00086" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="a00087" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="a00092" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="a00082" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="a00088" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="a00089" kind="namespace"><name>uPLibrary::Networking::M2Mqtt</name>
+  </compound>
+  <compound refid="a00090" kind="namespace"><name>uPLibrary::Networking::M2Mqtt::Messages</name>
+  </compound>
+  <compound refid="a00002" kind="file"><name>CreateObject.cs</name>
+  </compound>
+  <compound refid="a00005" kind="file"><name>OnGuiMqttBsp.cs</name>
+  </compound>
+  <compound refid="a00008" kind="file"><name>EnumCompareOperator.cs</name>
+  </compound>
+  <compound refid="a00011" kind="file"><name>EnumStringCompareOperator.cs</name>
+  </compound>
+  <compound refid="a00014" kind="file"><name>EnumMqttQualityOfService.cs</name>
+  </compound>
+  <compound refid="a00017" kind="file"><name>IMqttTopicReceiver.cs</name>
+  </compound>
+  <compound refid="a00020" kind="file"><name>InteractionEvent.cs</name>
+  </compound>
+  <compound refid="a00023" kind="file"><name>MqttConnector.cs</name>
+  </compound>
+  <compound refid="a00026" kind="file"><name>MqttTopicDoAction.cs</name>
+  </compound>
+  <compound refid="a00029" kind="file"><name>MqttTopicToConsole.cs</name>
+  </compound>
+  <compound refid="a00032" kind="file"><name>AbsDoActionByMqttTopicValue.cs</name>
+  </compound>
+  <compound refid="a00035" kind="file"><name>DoActionByMqttTopicArives.cs</name>
+  </compound>
+  <compound refid="a00038" kind="file"><name>DoActionByMqttTopicFloatValue.cs</name>
+  </compound>
+  <compound refid="a00041" kind="file"><name>DoActionByMqttTopicIntValue.cs</name>
+  </compound>
+  <compound refid="a00044" kind="file"><name>DoActionByMqttTopicStringValue.cs</name>
+  </compound>
+  <compound refid="a00047" kind="file"><name>AbsDoActionByMqttTopicValueEditor.cs</name>
+  </compound>
+  <compound refid="a00050" kind="file"><name>DoActionByMqttTopicFloatValueEditor.cs</name>
+  </compound>
+  <compound refid="a00053" kind="file"><name>DoActionByMqttTopicIntValueEditor.cs</name>
+  </compound>
+  <compound refid="a00056" kind="file"><name>DoActionByMqttTopicStringValueEditor.cs</name>
+  </compound>
+  <compound refid="a00059" kind="file"><name>MqttConnectorSingleTon.cs</name>
+  </compound>
+  <compound refid="a00062" kind="file"><name>AbsServerConfig.cs</name>
+  </compound>
+  <compound refid="a00065" kind="file"><name>ConfigFromJSONFile.cs</name>
+  </compound>
+  <compound refid="a00068" kind="file"><name>ConfigObject.cs</name>
+  </compound>
+  <compound refid="a00071" kind="file"><name>ConfigFromFileEditor.cs</name>
+  </compound>
+  <compound refid="dir_a862500ac8fcd05aec7fa2fb9cbe9900" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets</name>
+  </compound>
+  <compound refid="dir_9afac7545a378fe1e4c1a811d42a65f3" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code</name>
+  </compound>
+  <compound refid="dir_d27d5ee87d7101ebb58772e2e6d0cb15" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor</name>
+  </compound>
+  <compound refid="dir_d1963c44788dee88db1e50c13cc7dced" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/Editor</name>
+  </compound>
+  <compound refid="dir_b1f4e90b0b72d6d1238891b7495eabdf" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example</name>
+  </compound>
+  <compound refid="dir_8510ede1a17884af71ccbbbd354da96e" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic</name>
+  </compound>
+  <compound refid="dir_7ba20577de04e78ae48a4a33fde164b8" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev</name>
+  </compound>
+  <compound refid="dir_501d94c7e2f13601daa63c04d35dd76b" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D</name>
+  </compound>
+  <compound refid="dir_2e97ca210559046e1b29fd4be61cbf6a" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic</name>
+  </compound>
+  <compound refid="dir_4eb0775a99c6c01a419fe0fd00a13dfd" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks</name>
+  </compound>
+  <compound refid="dir_f29e8c2609164a7d517fd06bdf4ac887" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity</name>
+  </compound>
+  <compound refid="dir_17f6ce8fc7284b0ff2fda0674bdd134b" kind="dir"><name>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig</name>
+  </compound>
+</doxygenindex>

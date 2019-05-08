@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_4eb0775a99c6c01a419fe0fd00a13dfd" kind="dir">
+    <compoundname>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks</compoundname>
+    <innerdir refid="dir_d27d5ee87d7101ebb58772e2e6d0cb15">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor</innerdir>
+    <innerfile refid="a00032">AbsDoActionByMqttTopicValue.cs</innerfile>
+    <innerfile refid="a00035">DoActionByMqttTopicArives.cs</innerfile>
+    <innerfile refid="a00038">DoActionByMqttTopicFloatValue.cs</innerfile>
+    <innerfile refid="a00041">DoActionByMqttTopicIntValue.cs</innerfile>
+    <innerfile refid="a00044">DoActionByMqttTopicStringValue.cs</innerfile>
+    <innerfile refid="a00059">MqttConnectorSingleTon.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/"/>
+  </compounddef>
+</doxygen>

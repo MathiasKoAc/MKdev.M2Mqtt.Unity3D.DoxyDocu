@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00051">
+<title>MKdev::MqttForUnity::MqttBricks</title>
+        <section>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00093">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicArives</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00097">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00101">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicStringValue</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00105">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicValue</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="a00109">MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00180">
+<title>MKdev::ServerConfig::ConfigEditor::ConfigFromFileEditor class Reference</title>
+<para>Inheritance diagram for MKdev::ServerConfig::ConfigEditor::ConfigFromFileEditor</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00179.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::ServerConfig::ConfigEditor::ConfigFromFileEditor</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00178.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="a00180_1a73549fc3a14f1e277d656f43eab46fba">OnInspectorGUI</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="a00180_1a73549fc3a14f1e277d656f43eab46fba">
+                <title>override void MKdev.ServerConfig.ConfigEditor.ConfigFromFileEditor.OnInspectorGUI ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

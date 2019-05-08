@@ -1,0 +1,87 @@
+.TH "MKdev.ServerConfig.ConfigFromJSONFile" 3 "Wed May 8 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MKdev.ServerConfig.ConfigFromJSONFile
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBMKdev\&.ServerConfig\&.AbsServerConfig\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBWriteToFile\fP ()"
+.br
+.ti -1c
+.RI "void \fBReadFromFile\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnEnable\fP ()"
+.br
+.ti -1c
+.RI "override string \fBGetServerIp\fP ()"
+.br
+.ti -1c
+.RI "override string \fBGetPassword\fP ()"
+.br
+.ti -1c
+.RI "override string \fBGetUsername\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBServerIp\fP = '192\&.168\&.178\&.2'"
+.br
+.ti -1c
+.RI "string \fBUsername\fP = 'uname'"
+.br
+.ti -1c
+.RI "string \fBPassword\fP = 'securePwd'"
+.br
+.ti -1c
+.RI "string \fBfilePath\fP = 'config/mqttSetup\&.json'"
+.br
+.ti -1c
+.RI "bool \fBonEnableReadFromFile\fP = false"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "override string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.GetPassword ()\fC [virtual]\fP"
+
+.PP
+Implements \fBMKdev\&.ServerConfig\&.AbsServerConfig\fP\&.
+.SS "override string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.GetServerIp ()\fC [virtual]\fP"
+
+.PP
+Implements \fBMKdev\&.ServerConfig\&.AbsServerConfig\fP\&.
+.SS "override string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.GetUsername ()\fC [virtual]\fP"
+
+.PP
+Implements \fBMKdev\&.ServerConfig\&.AbsServerConfig\fP\&.
+.SS "void MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.OnEnable ()"
+
+.SS "void MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.ReadFromFile ()"
+
+.SS "void MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.WriteToFile ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.filePath = 'config/mqttSetup\&.json'"
+
+.SS "bool MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.onEnableReadFromFile = false"
+
+.SS "string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.Password = 'securePwd'"
+
+.SS "string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.ServerIp = '192\&.168\&.178\&.2'"
+
+.SS "string MKdev\&.ServerConfig\&.ConfigFromJSONFile\&.Username = 'uname'"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for MKdev\&.M2Mqtt from the source code\&.

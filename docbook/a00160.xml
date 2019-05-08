@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00160">
+<title>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon class Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00159.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00158.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static MqttConnectorSingleTon s_Instance</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="a00160">MqttConnectorSingleTon</link> <link linkend="a00160_1a42443cabee1dca529d99975e979a08f2">GetInstance</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00160_1ac380c927394bb32b1b48106e363a9bd4">OnApplicationQuit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>It connects the UnityScene with the Broker and is findable by GetInstance as SingleTon </para>
+                <para>Definition at line 9 of file MqttConnectorSingleTon.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>MqttConnectorSingleTon.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="a00160_1a42443cabee1dca529d99975e979a08f2">
+                <title>static MqttConnectorSingleTon MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon.GetInstance ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00160_1ac380c927394bb32b1b48106e363a9bd4">
+                <title>void MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon.OnApplicationQuit ()</title> <emphasis></emphasis>
+                
+<para>Ensure that the instance is destroyed when the game is stopped in the editor. </para>
+
+            </section>
+</section>

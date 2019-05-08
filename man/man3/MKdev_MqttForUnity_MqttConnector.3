@@ -1,0 +1,89 @@
+.TH "MKdev.MqttForUnity.MqttConnector" 3 "Wed May 8 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MKdev.MqttForUnity.MqttConnector
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.PP
+Inherited by \fBMKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBPublishMessage\fP (string topic, string Message, \fBEnumMqttQualityOfService\fP MqttQOS_Level=\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP)"
+.br
+.ti -1c
+.RI "void \fBAddTopicReceiver\fP (string topic, \fBIMqttTopicReceiver\fP receiver, \fBEnumMqttQualityOfService\fP MqttQOS_Level=\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP)"
+.br
+.ti -1c
+.RI "void \fBAddTopicReceiver\fP (string topic, \fBIMqttTopicReceiver\fP receiver, byte MqttQOS_Level)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBAbsServerConfig\fP \fBServerConfig\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStart\fP ()"
+.br
+.ti -1c
+.RI "void \fBclient_MqttMsgPublishReceived\fP (object sender, MqttMsgPublishEventArgs e)"
+.br
+.ti -1c
+.RI "IEnumerator \fBworkQueueAndCall\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "MqttClient \fBclient\fP"
+.br
+.ti -1c
+.RI "Dictionary< string, List< \fBIMqttTopicReceiver\fP > > \fBDictTopicReceiver\fP"
+.br
+.ti -1c
+.RI "Queue< MqttMsgPublishEventArgs > \fBeventQueue\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+It connects the UnityScene with the Broker 
+.SH "Member Function Documentation"
+.PP 
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.AddTopicReceiver (string topic, \fBIMqttTopicReceiver\fP receiver, \fBEnumMqttQualityOfService\fP MqttQOS_Level = \fC\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP\fP)"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.AddTopicReceiver (string topic, \fBIMqttTopicReceiver\fP receiver, byte MqttQOS_Level)"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.client_MqttMsgPublishReceived (object sender, MqttMsgPublishEventArgs e)\fC [private]\fP"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.PublishMessage (string topic, string Message, \fBEnumMqttQualityOfService\fP MqttQOS_Level = \fC\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP\fP)"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.Start ()\fC [private]\fP"
+
+.SS "IEnumerator MKdev\&.MqttForUnity\&.MqttConnector\&.workQueueAndCall ()\fC [private]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "MqttClient MKdev\&.MqttForUnity\&.MqttConnector\&.client\fC [private]\fP"
+
+.SS "Dictionary<string, List<\fBIMqttTopicReceiver\fP> > MKdev\&.MqttForUnity\&.MqttConnector\&.DictTopicReceiver\fC [private]\fP"
+
+.SS "Queue<MqttMsgPublishEventArgs> MKdev\&.MqttForUnity\&.MqttConnector\&.eventQueue\fC [private]\fP"
+
+.SS "\fBAbsServerConfig\fP MKdev\&.MqttForUnity\&.MqttConnector\&.ServerConfig"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for MKdev\&.M2Mqtt from the source code\&.

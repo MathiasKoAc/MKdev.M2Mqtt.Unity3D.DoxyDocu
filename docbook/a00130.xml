@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00130">
+<title>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicFloatValue class Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicFloatValue</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00129.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicFloatValue</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00128.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>EnumCompareOperator Compare</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float IntValue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override bool <link linkend="a00130_1a7162d52c9f215c5b427dd40aa056c30b">compareOk</link> (
+byte [] message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="a00130_1a7162d52c9f215c5b427dd40aa056c30b">
+                <title>override bool MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicFloatValue.compareOk (byte[] message)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

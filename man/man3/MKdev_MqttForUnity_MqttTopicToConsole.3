@@ -1,0 +1,62 @@
+.TH "MKdev.MqttForUnity.MqttTopicToConsole" 3 "Wed May 8 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MKdev.MqttForUnity.MqttTopicToConsole
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour, and \fBMKdev\&.MqttForUnity\&.IMqttTopicReceiver\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnReceivedMessage\fP (string topic, byte[] message)"
+.br
+.ti -1c
+.RI "void \fBOnReceivedMessage\fP (string topic, string message)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBMqttConnector\fP \fBMqttCon\fP"
+.br
+.ti -1c
+.RI "string \fBpublishTopic\fP = 'hello/world'"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStart\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetupLate\fP ()"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void MKdev\&.MqttForUnity\&.MqttTopicToConsole\&.OnReceivedMessage (string topic, byte [] message)"
+
+.PP
+Implements \fBMKdev\&.MqttForUnity\&.IMqttTopicReceiver\fP\&.
+.SS "void MKdev\&.MqttForUnity\&.MqttTopicToConsole\&.OnReceivedMessage (string topic, string message)"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttTopicToConsole\&.SetupLate ()\fC [private]\fP"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttTopicToConsole\&.Start ()\fC [private]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBMqttConnector\fP MKdev\&.MqttForUnity\&.MqttTopicToConsole\&.MqttCon"
+
+.SS "string MKdev\&.MqttForUnity\&.MqttTopicToConsole\&.publishTopic = 'hello/world'"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for MKdev\&.M2Mqtt from the source code\&.

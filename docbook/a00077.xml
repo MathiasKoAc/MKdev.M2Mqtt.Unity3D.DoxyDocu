@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00077">
+<title>MKdev::Logic</title>
+        <section>
+            <title>Enumerations</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="a00077_1a1f4aaba36642fa6c1080e26fa1cd46ae">EnumCompareOperator</link> {
+<link linkend="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea465289687a70db7aa7217cc240c29f0f">equal</link>,
+<link linkend="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea23394313d75148a01ac834b289a0dd91">smaller</link>,
+<link linkend="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea7de99d55a70b4e1215218f00d95a9720">bigger</link>,
+<link linkend="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea691f2a76d0a7c8b633520688aff05a1b">smallerOr</link>,
+<link linkend="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea54b6d24a10aab305f85ea67a8605cdb7">biggerOr</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="a00077_1a255f11bf8a539dee2a52285fb74b1e73">EnumStringCompareOperator</link> {
+<link linkend="a00077_1a255f11bf8a539dee2a52285fb74b1e73a465289687a70db7aa7217cc240c29f0f">equal</link>,
+<link linkend="a00077_1a255f11bf8a539dee2a52285fb74b1e73ab3a556017ef6a3f64182b803957cb0d5">equalIgnoreCase</link>,
+<link linkend="a00077_1a255f11bf8a539dee2a52285fb74b1e73a80bfff5241ffe1f0c9eb31d4e01a3581">notEqual</link>,
+<link linkend="a00077_1a255f11bf8a539dee2a52285fb74b1e73a3373ea551e5f1bf751da09586f4aac9d">notEqualIgnoreCase</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

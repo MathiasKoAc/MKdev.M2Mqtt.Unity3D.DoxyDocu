@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_9afac7545a378fe1e4c1a811d42a65f3" kind="dir">
+    <compoundname>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code</compoundname>
+    <innerdir refid="dir_b1f4e90b0b72d6d1238891b7495eabdf">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example</innerdir>
+    <innerdir refid="dir_8510ede1a17884af71ccbbbd354da96e">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic</innerdir>
+    <innerdir refid="dir_2e97ca210559046e1b29fd4be61cbf6a">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic</innerdir>
+    <innerdir refid="dir_4eb0775a99c6c01a419fe0fd00a13dfd">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks</innerdir>
+    <innerdir refid="dir_17f6ce8fc7284b0ff2fda0674bdd134b">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+.TH "MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon" 3 "Wed May 8 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBMKdev\&.MqttForUnity\&.MqttConnector\fP\&.
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBMqttConnectorSingleTon\fP \fBGetInstance\fP ()"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnApplicationQuit\fP ()"
+.br
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBMqttConnectorSingleTon\fP \fBs_Instance\fP = null"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+It connects the UnityScene with the Broker and is findable by GetInstance as SingleTon 
+.SH "Member Function Documentation"
+.PP 
+.SS "static \fBMqttConnectorSingleTon\fP MKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\&.GetInstance ()\fC [static]\fP"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\&.OnApplicationQuit ()\fC [private]\fP"
+Ensure that the instance is destroyed when the game is stopped in the editor\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBMqttConnectorSingleTon\fP MKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\&.s_Instance = null\fC [static]\fP, \fC [private]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for MKdev\&.M2Mqtt from the source code\&.

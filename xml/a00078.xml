@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00078" kind="namespace" language="C#">
+    <compoundname>MKdev::MqttForUnity::MqttBricks</compoundname>
+    <innerclass refid="a00124" prot="public">MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</innerclass>
+    <innerclass refid="a00128" prot="public">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicArives</innerclass>
+    <innerclass refid="a00132" prot="public">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicFloatValue</innerclass>
+    <innerclass refid="a00136" prot="public">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</innerclass>
+    <innerclass refid="a00140" prot="public">MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicStringValue</innerclass>
+    <innerclass refid="a00160" prot="public">MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</innerclass>
+    <innernamespace refid="a00079">MKdev::MqttForUnity::MqttBricks::BrickEditor</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

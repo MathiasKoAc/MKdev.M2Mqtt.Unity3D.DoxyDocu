@@ -1,0 +1,4 @@
+<map id="MKdev.ServerConfig.AbsServerConfig" name="MKdev.ServerConfig.AbsServerConfig">
+<area shape="rect" id="node3" href="$a00170.html" title="{MKdev.ServerConfig.Config\lFromJSONFile\n|+ ServerIp\l+ Username\l+ Password\l+ filePath\l+ onEnableReadFromFile\l|+ WriteToFile()\l+ ReadFromFile()\l+ OnEnable()\l+ GetServerIp()\l+ GetPassword()\l+ GetUsername()\l}" alt="" coords="5,300,183,524"/>
+<area shape="rect" id="node4" href="$a00174.html" title="{MKdev.ServerConfig.Config\lObject\n|+ ServerIp\l+ Username\l+ Password\l|+ GetServerIp()\l+ GetUsername()\l+ GetPassword()\l}" alt="" coords="207,337,384,487"/>
+</map>

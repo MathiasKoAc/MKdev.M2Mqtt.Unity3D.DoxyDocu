@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00180" kind="class" language="C#" prot="public">
+    <compoundname>MKdev::ServerConfig::ConfigEditor::ConfigFromFileEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00180_1a73549fc3a14f1e277d656f43eab46fba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MKdev.ServerConfig.ConfigEditor.ConfigFromFileEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/Editor/ConfigFromFileEditor.cs" line="12" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/Editor/ConfigFromFileEditor.cs" bodystart="12" bodyend="38"/>
+        <references refid="a00172_1a4f8bbd98c9e3f61c01d96224fc4bfeb6" compoundref="a00065" startline="33">MKdev.ServerConfig.ConfigFromJSONFile.filePath</references>
+        <references refid="a00172_1a6fa9ccd2aa2d927b86867062b4ff85b3" compoundref="a00065" startline="36" endline="48">MKdev.ServerConfig.ConfigFromJSONFile.WriteToFile</references>
+        <references refid="a00172_1ad8234fbfd161ba3d79621c14499361a0" compoundref="a00065" startline="50" endline="67">MKdev.ServerConfig.ConfigFromJSONFile.ReadFromFile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>Editor</label>
+      </node>
+      <node id="31">
+        <label>MKdev.ServerConfig.ConfigEditor.ConfigFromFileEditor</label>
+        <link refid="a00180"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>Editor</label>
+      </node>
+      <node id="33">
+        <label>MKdev.ServerConfig.ConfigEditor.ConfigFromFileEditor</label>
+        <link refid="a00180"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/Editor/ConfigFromFileEditor.cs" line="10" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/Editor/ConfigFromFileEditor.cs" bodystart="9" bodyend="39"/>
+    <listofallmembers>
+      <member refid="a00180_1a73549fc3a14f1e277d656f43eab46fba" prot="public" virt="non-virtual"><scope>MKdev::ServerConfig::ConfigEditor::ConfigFromFileEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

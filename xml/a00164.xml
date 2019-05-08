@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00164" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>MKdev::ServerConfig::AbsServerConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="a00172" prot="public" virt="non-virtual">MKdev.ServerConfig.ConfigFromJSONFile</derivedcompoundref>
+    <derivedcompoundref refid="a00176" prot="public" virt="non-virtual">MKdev.ServerConfig.ConfigObject</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00164_1ac0764e35ad02b490df85c6fcc5707101" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string MKdev.ServerConfig.AbsServerConfig.GetServerIp</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerIp</name>
+        <reimplementedby refid="a00176_1a69a723fb9dd511fc20b2cd3896d64dda">GetServerIp</reimplementedby>
+        <reimplementedby refid="a00172_1a98ac95438b9b7325e14a97fd97eee320">GetServerIp</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/AbsServerConfig.cs" line="7" column="1"/>
+        <referencedby refid="a00112_1a27f034f1c1641bf97edac34fa394ddc6" compoundref="a00023" startline="24" endline="56">MKdev.MqttForUnity.MqttConnector.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="a00164_1a3556535566f59889c8fbb275ca443d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string MKdev.ServerConfig.AbsServerConfig.GetPassword</definition>
+        <argsstring>()</argsstring>
+        <name>GetPassword</name>
+        <reimplementedby refid="a00176_1aa113b25f641bae42eb19f38c67d577d5">GetPassword</reimplementedby>
+        <reimplementedby refid="a00172_1a9a016678ad20c5f2df937a1a6cd65843">GetPassword</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/AbsServerConfig.cs" line="9" column="1"/>
+        <referencedby refid="a00112_1a27f034f1c1641bf97edac34fa394ddc6" compoundref="a00023" startline="24" endline="56">MKdev.MqttForUnity.MqttConnector.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="a00164_1af14a522f512c2ddf758da24ca79f7a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string MKdev.ServerConfig.AbsServerConfig.GetUsername</definition>
+        <argsstring>()</argsstring>
+        <name>GetUsername</name>
+        <reimplementedby refid="a00176_1a3db7403aac5884992e6c99ea0ddc578e">GetUsername</reimplementedby>
+        <reimplementedby refid="a00172_1aa533179ad3d54533008f06e87c7c0d3b">GetUsername</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/AbsServerConfig.cs" line="11" column="1"/>
+        <referencedby refid="a00112_1a27f034f1c1641bf97edac34fa394ddc6" compoundref="a00023" startline="24" endline="56">MKdev.MqttForUnity.MqttConnector.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>MKdev.ServerConfig.ConfigFromJSONFile</label>
+        <link refid="a00172"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MKdev.ServerConfig.ConfigObject</label>
+        <link refid="a00176"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="23">
+        <label>MKdev.ServerConfig.AbsServerConfig</label>
+        <link refid="a00164"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="27">
+        <label>MKdev.ServerConfig.AbsServerConfig</label>
+        <link refid="a00164"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/AbsServerConfig.cs" line="6" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/AbsServerConfig.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="a00164_1a3556535566f59889c8fbb275ca443d67" prot="public" virt="pure-virtual"><scope>MKdev::ServerConfig::AbsServerConfig</scope><name>GetPassword</name></member>
+      <member refid="a00164_1ac0764e35ad02b490df85c6fcc5707101" prot="public" virt="pure-virtual"><scope>MKdev::ServerConfig::AbsServerConfig</scope><name>GetServerIp</name></member>
+      <member refid="a00164_1af14a522f512c2ddf758da24ca79f7a59" prot="public" virt="pure-virtual"><scope>MKdev::ServerConfig::AbsServerConfig</scope><name>GetUsername</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

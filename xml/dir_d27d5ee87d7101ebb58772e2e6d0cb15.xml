@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d27d5ee87d7101ebb58772e2e6d0cb15" kind="dir">
+    <compoundname>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor</compoundname>
+    <innerfile refid="a00047">AbsDoActionByMqttTopicValueEditor.cs</innerfile>
+    <innerfile refid="a00050">DoActionByMqttTopicFloatValueEditor.cs</innerfile>
+    <innerfile refid="a00053">DoActionByMqttTopicIntValueEditor.cs</innerfile>
+    <innerfile refid="a00056">DoActionByMqttTopicStringValueEditor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor/"/>
+  </compounddef>
+</doxygen>

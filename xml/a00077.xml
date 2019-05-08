@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00077" kind="namespace" language="C#">
+    <compoundname>MKdev::Logic</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="a00077_1a1f4aaba36642fa6c1080e26fa1cd46ae" prot="public" static="no">
+        <name>EnumCompareOperator</name>
+        <enumvalue id="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea465289687a70db7aa7217cc240c29f0f" prot="public">
+          <name>equal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea23394313d75148a01ac834b289a0dd91" prot="public">
+          <name>smaller</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea7de99d55a70b4e1215218f00d95a9720" prot="public">
+          <name>bigger</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea691f2a76d0a7c8b633520688aff05a1b" prot="public">
+          <name>smallerOr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea54b6d24a10aab305f85ea67a8605cdb7" prot="public">
+          <name>biggerOr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/EnumCompareOperator.cs" line="4" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/EnumCompareOperator.cs" bodystart="3" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="a00077_1a255f11bf8a539dee2a52285fb74b1e73" prot="public" static="no">
+        <name>EnumStringCompareOperator</name>
+        <enumvalue id="a00077_1a255f11bf8a539dee2a52285fb74b1e73a465289687a70db7aa7217cc240c29f0f" prot="public">
+          <name>equal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a255f11bf8a539dee2a52285fb74b1e73ab3a556017ef6a3f64182b803957cb0d5" prot="public">
+          <name>equalIgnoreCase</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a255f11bf8a539dee2a52285fb74b1e73a80bfff5241ffe1f0c9eb31d4e01a3581" prot="public">
+          <name>notEqual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00077_1a255f11bf8a539dee2a52285fb74b1e73a3373ea551e5f1bf751da09586f4aac9d" prot="public">
+          <name>notEqualIgnoreCase</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/EnumStringCompareOperator.cs" line="4" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/EnumStringCompareOperator.cs" bodystart="3" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/EnumCompareOperator.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

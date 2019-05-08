@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00144" kind="class" language="C#" prot="public">
+    <compoundname>MKdev::MqttForUnity::MqttBricks::BrickEditor::AbsDoActionByMqttTopicValueEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <derivedcompoundref refid="a00148" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.BrickEditor.DoActionByMqttTopicFloatValueEditor</derivedcompoundref>
+    <derivedcompoundref refid="a00152" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.BrickEditor.DoActionByMqttTopicIntValueEditor</derivedcompoundref>
+    <derivedcompoundref refid="a00156" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.BrickEditor.DoActionByMqttTopicStringValueEditor</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00144_1a23ef9618017d53983b007def1a272723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MKdev.MqttForUnity.MqttBricks.BrickEditor.AbsDoActionByMqttTopicValueEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor/AbsDoActionByMqttTopicValueEditor.cs" line="12" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor/AbsDoActionByMqttTopicValueEditor.cs" bodystart="12" bodyend="25"/>
+        <references refid="a00124_1aac6d6b031cebbd50e2e5e863397c0942" compoundref="a00032" startline="10">MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.onStart</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>MKdev.MqttForUnity.MqttBricks.BrickEditor.DoActionByMqttTopicFloatValueEditor</label>
+        <link refid="a00148"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MKdev.MqttForUnity.MqttBricks.BrickEditor.AbsDoActionByMqttTopicValueEditor</label>
+        <link refid="a00144"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MKdev.MqttForUnity.MqttBricks.BrickEditor.DoActionByMqttTopicIntValueEditor</label>
+        <link refid="a00152"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>UnityEditor::Editor</label>
+      </node>
+      <node id="20">
+        <label>MKdev.MqttForUnity.MqttBricks.BrickEditor.DoActionByMqttTopicStringValueEditor</label>
+        <link refid="a00156"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>MKdev.MqttForUnity.MqttBricks.BrickEditor.AbsDoActionByMqttTopicValueEditor</label>
+        <link refid="a00144"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>UnityEditor::Editor</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor/AbsDoActionByMqttTopicValueEditor.cs" line="10" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/Editor/AbsDoActionByMqttTopicValueEditor.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="a00144_1a23ef9618017d53983b007def1a272723" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::BrickEditor::AbsDoActionByMqttTopicValueEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

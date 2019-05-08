@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00118">
+<title>MKdev::MqttForUnity::MqttTopicToConsole class Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::MqttTopicToConsole</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00117.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::MqttTopicToConsole</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00116.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>MqttConnector MqttCon</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string publishTopic</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00118_1ada7296d6d3e476b5d4432b84fbabb7cd">Start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00118_1a475856e7b3111e34f3a827b8118c241a">SetupLate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00118_1a489e45339ae4d22a2b81862df0de3e46">OnReceivedMessage</link> (
+string topic, byte [] message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00118_1aca2f942c93b3ae3306a364456f187790">OnReceivedMessage</link> (
+string topic, string message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="a00118_1ada7296d6d3e476b5d4432b84fbabb7cd">
+                <title>void MKdev.MqttForUnity.MqttTopicToConsole.Start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00118_1a475856e7b3111e34f3a827b8118c241a">
+                <title>void MKdev.MqttForUnity.MqttTopicToConsole.SetupLate ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00118_1a489e45339ae4d22a2b81862df0de3e46">
+                <title>void MKdev.MqttForUnity.MqttTopicToConsole.OnReceivedMessage (string topic, byte[] message)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00118_1aca2f942c93b3ae3306a364456f187790">
+                <title>void MKdev.MqttForUnity.MqttTopicToConsole.OnReceivedMessage (string topic, string message)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

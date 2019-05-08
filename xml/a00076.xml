@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00076" kind="namespace" language="C#">
+    <compoundname>MKdev::MqttForUnity</compoundname>
+    <innerclass refid="a00104" prot="public">MKdev::MqttForUnity::IMqttTopicReceiver</innerclass>
+    <innerclass refid="a00112" prot="public">MKdev::MqttForUnity::MqttConnector</innerclass>
+    <innerclass refid="a00116" prot="public">MKdev::MqttForUnity::MqttTopicDoAction</innerclass>
+    <innerclass refid="a00120" prot="public">MKdev::MqttForUnity::MqttTopicToConsole</innerclass>
+    <innernamespace refid="a00078">MKdev::MqttForUnity::MqttBricks</innernamespace>
+    <innernamespace refid="a00074">MKdev::MqttForUnity::MqttExample</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="a00076_1a17d08c4793f11a9082c9806004c46379" prot="public" static="no">
+        <name>EnumMqttQualityOfService</name>
+        <enumvalue id="a00076_1a17d08c4793f11a9082c9806004c46379a63ad7814141e0290fa460727b356952c" prot="public">
+          <name>QOS_LEVEL_AT_MOST_ONCE</name>
+          <initializer>=0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00076_1a17d08c4793f11a9082c9806004c46379aa5509314ef54911bb58f376d9660e876" prot="public">
+          <name>QOS_LEVEL_AT_LEAST_ONCE</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00076_1a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3" prot="public">
+          <name>QOS_LEVEL_EXACTLY_ONCE</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/EnumMqttQualityOfService.cs" line="10" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/EnumMqttQualityOfService.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

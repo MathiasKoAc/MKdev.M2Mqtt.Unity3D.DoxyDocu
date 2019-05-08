@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00080" kind="namespace" language="C#">
+    <compoundname>MKdev::ServerConfig</compoundname>
+    <innerclass refid="a00164" prot="public">MKdev::ServerConfig::AbsServerConfig</innerclass>
+    <innerclass refid="a00168" prot="public">MKdev::ServerConfig::ConfigDetail</innerclass>
+    <innerclass refid="a00172" prot="public">MKdev::ServerConfig::ConfigFromJSONFile</innerclass>
+    <innerclass refid="a00176" prot="public">MKdev::ServerConfig::ConfigObject</innerclass>
+    <innernamespace refid="a00081">MKdev::ServerConfig::ConfigEditor</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/ServerConfig/AbsServerConfig.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

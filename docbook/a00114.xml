@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00114">
+<title>MKdev::MqttForUnity::MqttTopicDoAction class Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::MqttTopicDoAction</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00113.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::MqttTopicDoAction</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00112.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>MqttConnector MqttCon</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string publishTopic</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>InteractionEvent onStart</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00114_1a3e9fbeb797a647133715798e1514452f">Start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00114_1ab5d9e5dab2fa3262c5cadaea1b74ce19">SetupLate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00114_1ac4b78a35e4445d46a498f2ae68c463d3">OnReceivedMessage</link> (
+string topic, byte [] message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="a00114_1a3e9fbeb797a647133715798e1514452f">
+                <title>void MKdev.MqttForUnity.MqttTopicDoAction.Start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00114_1ab5d9e5dab2fa3262c5cadaea1b74ce19">
+                <title>void MKdev.MqttForUnity.MqttTopicDoAction.SetupLate ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00114_1ac4b78a35e4445d46a498f2ae68c463d3">
+                <title>void MKdev.MqttForUnity.MqttTopicDoAction.OnReceivedMessage (string topic, byte[] message)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

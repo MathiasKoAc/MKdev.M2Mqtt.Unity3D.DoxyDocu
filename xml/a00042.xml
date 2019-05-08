@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00042" kind="interface" language="C#" prot="public">
+    <compoundname>MKdev::MqttForUnity::IMqttTopicReceiver</compoundname>
+    <derivedcompoundref refid="a00050" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttTopicDoAction</derivedcompoundref>
+    <derivedcompoundref refid="a00058" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttTopicToConsole</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00042_1a1a1713dea78f19a701a2fd7800e2fca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.IMqttTopicReceiver.OnReceivedMessage</definition>
+        <argsstring>(string topic, byte[] message)</argsstring>
+        <name>OnReceivedMessage</name>
+        <reimplementedby refid="a00058_1a489e45339ae4d22a2b81862df0de3e46">OnReceivedMessage</reimplementedby>
+        <reimplementedby refid="a00050_1ac4b78a35e4445d46a498f2ae68c463d3">OnReceivedMessage</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>topic</declname>
+        </param>
+        <param>
+          <type>byte []</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/IMqttTopicReceiver.cs" line="11" column="1"/>
+        <referencedby refid="a00046_1a64694beb20f25a360d26c7a68a7997c3" compoundref="a00011" startline="49" endline="71">MKdev.MqttForUnity.MqttConnector.workQueueAndCall</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>MKdev.MqttForUnity.MqttTopicDoAction</label>
+        <link refid="a00050"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MKdev.MqttForUnity.MqttTopicToConsole</label>
+        <link refid="a00058"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MKdev.MqttForUnity.IMqttTopicReceiver</label>
+        <link refid="a00042"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>MKdev.MqttForUnity.IMqttTopicReceiver</label>
+        <link refid="a00042"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/IMqttTopicReceiver.cs" line="10" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/IMqttTopicReceiver.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="a00042_1a1a1713dea78f19a701a2fd7800e2fca7" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::IMqttTopicReceiver</scope><name>OnReceivedMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00126">
+<title>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicArives class Reference</title>
+<para>Inheritance diagram for MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicArives</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00125.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicArives</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00124.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override bool <link linkend="a00126_1af1fde7a67482f0e3df2379a957dacacc">compareOk</link> (
+byte [] message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>It is a Brick, which does a Action if the configert Topic changes a value </para>
+                <para>Definition at line 9 of file DoActionByMqttTopicArives.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>DoActionByMqttTopicArives.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="a00126_1af1fde7a67482f0e3df2379a957dacacc">
+                <title>override bool MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicArives.compareOk (byte[] message)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

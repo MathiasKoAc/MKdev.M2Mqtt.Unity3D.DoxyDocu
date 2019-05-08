@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00172">
+<title>MKdev::ServerConfig::ConfigFromJSONFile class Reference</title>
+<para>Inheritance diagram for MKdev::ServerConfig::ConfigFromJSONFile</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00171.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::ServerConfig::ConfigFromJSONFile</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00170.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string ServerIp</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string Username</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string Password</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string filePath</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool onEnableReadFromFile</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00172_1a6fa9ccd2aa2d927b86867062b4ff85b3">WriteToFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00172_1ad8234fbfd161ba3d79621c14499361a0">ReadFromFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00172_1ad174cabf701c0bf9ccea77fa0de85e44">OnEnable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="a00172_1a98ac95438b9b7325e14a97fd97eee320">GetServerIp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="a00172_1a9a016678ad20c5f2df937a1a6cd65843">GetPassword</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="a00172_1aa533179ad3d54533008f06e87c7c0d3b">GetUsername</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="a00172_1a6fa9ccd2aa2d927b86867062b4ff85b3">
+                <title>void MKdev.ServerConfig.ConfigFromJSONFile.WriteToFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00172_1ad8234fbfd161ba3d79621c14499361a0">
+                <title>void MKdev.ServerConfig.ConfigFromJSONFile.ReadFromFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00172_1ad174cabf701c0bf9ccea77fa0de85e44">
+                <title>void MKdev.ServerConfig.ConfigFromJSONFile.OnEnable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00172_1a98ac95438b9b7325e14a97fd97eee320">
+                <title>override string MKdev.ServerConfig.ConfigFromJSONFile.GetServerIp ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00172_1a9a016678ad20c5f2df937a1a6cd65843">
+                <title>override string MKdev.ServerConfig.ConfigFromJSONFile.GetPassword ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00172_1aa533179ad3d54533008f06e87c7c0d3b">
+                <title>override string MKdev.ServerConfig.ConfigFromJSONFile.GetUsername ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

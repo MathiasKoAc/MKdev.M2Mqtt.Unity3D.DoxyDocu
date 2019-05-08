@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00098" kind="class" language="C#" prot="public">
+    <compoundname>MKdev::MqttForUnity::MqttExample::OnGuiMqttBsp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="a00098_1aba0622ccdb8ef23eba84b8a035ddbdc9" prot="public" static="no" mutable="no">
+        <type><ref refid="a00110" kindref="compound">MqttConnector</ref></type>
+        <definition>MqttConnector MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp.MqttCon</definition>
+        <argsstring></argsstring>
+        <name>MqttCon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" line="8" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a00098_1a1b51ad5bb61b0534f5d5838b2f06cb92" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp.publishTopic</definition>
+        <argsstring></argsstring>
+        <name>publishTopic</name>
+        <initializer>= &quot;hello/world&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" line="9" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a00098_1a2688ed9fd45fce9fb17c7b2b406a3e7f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp.publishString</definition>
+        <argsstring></argsstring>
+        <name>publishString</name>
+        <initializer>= &quot;Sending from Unity3D!!!&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" line="10" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a00098_1ac08746a89d2202aaea3692709174a7bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" line="12" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" bodystart="12" bodyend="18"/>
+        <references refid="a00110_1a5c3c0346f1f3d04201a69246e8c426b0" compoundref="a00023" startline="89" endline="94">MKdev.MqttForUnity.MqttConnector.PublishMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="168">
+        <label>MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp</label>
+        <link refid="a00098"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="170">
+        <label>MKdev.MqttForUnity.MqttExample.OnGuiMqttBsp</label>
+        <link refid="a00098"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>+MqttCon</edgelabel>
+        </childnode>
+      </node>
+      <node id="174">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="171">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="173">
+        <label>MKdev.ServerConfig.AbsServerConfig</label>
+        <link refid="a00162"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>MKdev.MqttForUnity.MqttConnector</label>
+        <link refid="a00110"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+        <childnode refid="173" relation="usage">
+          <edgelabel>+ServerConfig</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" line="6" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Example/OnGuiMqttBsp.cs" bodystart="5" bodyend="19"/>
+    <listofallmembers>
+      <member refid="a00098_1aba0622ccdb8ef23eba84b8a035ddbdc9" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttExample::OnGuiMqttBsp</scope><name>MqttCon</name></member>
+      <member refid="a00098_1ac08746a89d2202aaea3692709174a7bb" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttExample::OnGuiMqttBsp</scope><name>OnGUI</name></member>
+      <member refid="a00098_1a2688ed9fd45fce9fb17c7b2b406a3e7f" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttExample::OnGuiMqttBsp</scope><name>publishString</name></member>
+      <member refid="a00098_1a1b51ad5bb61b0534f5d5838b2f06cb92" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttExample::OnGuiMqttBsp</scope><name>publishTopic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

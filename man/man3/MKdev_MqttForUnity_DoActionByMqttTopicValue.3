@@ -1,0 +1,75 @@
+.TH "MKdev.MqttForUnity.DoActionByMqttTopicValue" 3 "Tue Apr 23 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MKdev.MqttForUnity.DoActionByMqttTopicValue
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour, and \fBMKdev\&.MqttForUnity\&.IMqttTopicReceiver\fP\&.
+.PP
+Inherited by \fBMKdev\&.MqttForUnity\&.DoActionByMqttTopicArives\fP, \fBMKdev\&.MqttForUnity\&.DoActionByMqttTopicIntValue\fP, and \fBMKdev\&.MqttForUnity\&.DoActionByMqttTopicStringValue\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnReceivedMessage\fP (string topic, byte[] message)"
+.br
+.ti -1c
+.RI "abstract bool \fBcompareOk\fP (byte[] message)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBInteractionEvent\fP \fBonStart\fP"
+.br
+.ti -1c
+.RI "string \fBpublishTopic\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStart\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetupLate\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBMqttConnector\fP \fBMqttCon\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract bool MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.compareOk (byte [] message)\fC [pure virtual]\fP"
+
+.PP
+Implemented in \fBMKdev\&.MqttForUnity\&.DoActionByMqttTopicIntValue\fP, \fBMKdev\&.MqttForUnity\&.DoActionByMqttTopicStringValue\fP, and \fBMKdev\&.MqttForUnity\&.DoActionByMqttTopicArives\fP\&.
+.SS "void MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.OnReceivedMessage (string topic, byte [] message)"
+
+.PP
+Implements \fBMKdev\&.MqttForUnity\&.IMqttTopicReceiver\fP\&.
+.SS "void MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.SetupLate ()\fC [private]\fP"
+
+.SS "void MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.Start ()\fC [private]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBMqttConnector\fP MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.MqttCon\fC [private]\fP"
+
+.SS "\fBInteractionEvent\fP MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.onStart"
+
+.SS "string MKdev\&.MqttForUnity\&.DoActionByMqttTopicValue\&.publishTopic"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for MKdev\&.M2Mqtt from the source code\&.

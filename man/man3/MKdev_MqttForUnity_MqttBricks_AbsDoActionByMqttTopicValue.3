@@ -1,0 +1,75 @@
+.TH "MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue" 3 "Wed May 8 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour, and \fBMKdev\&.MqttForUnity\&.IMqttTopicReceiver\fP\&.
+.PP
+Inherited by \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicArives\fP, \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicFloatValue\fP, \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicIntValue\fP, and \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicStringValue\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnReceivedMessage\fP (string topic, byte[] message)"
+.br
+.ti -1c
+.RI "abstract bool \fBcompareOk\fP (byte[] message)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBInteractionEvent\fP \fBonStart\fP"
+.br
+.ti -1c
+.RI "string \fBpublishTopic\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStart\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetupLate\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBMqttConnectorSingleTon\fP \fBMqttCon\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract bool MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.compareOk (byte [] message)\fC [pure virtual]\fP"
+
+.PP
+Implemented in \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicFloatValue\fP, \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicIntValue\fP, \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicStringValue\fP, and \fBMKdev\&.MqttForUnity\&.MqttBricks\&.DoActionByMqttTopicArives\fP\&.
+.SS "void MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.OnReceivedMessage (string topic, byte [] message)"
+
+.PP
+Implements \fBMKdev\&.MqttForUnity\&.IMqttTopicReceiver\fP\&.
+.SS "void MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.SetupLate ()\fC [private]\fP"
+
+.SS "void MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.Start ()\fC [private]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBMqttConnectorSingleTon\fP MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.MqttCon\fC [private]\fP"
+
+.SS "\fBInteractionEvent\fP MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.onStart"
+
+.SS "string MKdev\&.MqttForUnity\&.MqttBricks\&.AbsDoActionByMqttTopicValue\&.publishTopic"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for MKdev\&.M2Mqtt from the source code\&.

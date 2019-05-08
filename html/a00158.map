@@ -1,0 +1,4 @@
+<map id="MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon" name="MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon">
+<area shape="rect" id="node2" href="$a00112.html" title="{MqttConnector\n|&#45; client\l&#45; DictTopicReceiver\l&#45; eventQueue\l|+ PublishMessage()\l+ AddTopicReceiver()\l+ AddTopicReceiver()\l&#45; Start()\l&#45; client_MqttMsgPublishReceived()\l&#45; workQueueAndCall()\l}" alt="" coords="5,316,228,496"/>
+<area shape="rect" id="node4" href="$a00164.html" title="{MKdev.ServerConfig.AbsServer\lConfig\n||+ GetServerIp()\l+ GetPassword()\l+ GetUsername()\l}" alt="" coords="141,132,341,253"/>
+</map>

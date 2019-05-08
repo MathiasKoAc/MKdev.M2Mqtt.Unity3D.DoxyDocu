@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00122" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="a00102" prot="public" virt="non-virtual">MKdev.MqttForUnity.IMqttTopicReceiver</basecompoundref>
+    <derivedcompoundref refid="a00126" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicArives</derivedcompoundref>
+    <derivedcompoundref refid="a00130" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicFloatValue</derivedcompoundref>
+    <derivedcompoundref refid="a00134" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue</derivedcompoundref>
+    <derivedcompoundref refid="a00138" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicStringValue</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a00122_1a2a0e915c0a761eff278b6bfc95908ba0" prot="private" static="no" mutable="no">
+        <type><ref refid="a00110" kindref="compound">MqttConnector</ref></type>
+        <definition>MqttConnector MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.MqttCon</definition>
+        <argsstring></argsstring>
+        <name>MqttCon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="8" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="a00122_1aac6d6b031cebbd50e2e5e863397c0942" prot="public" static="no" mutable="no">
+        <type><ref refid="a00106" kindref="compound">InteractionEvent</ref></type>
+        <definition>InteractionEvent MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.onStart</definition>
+        <argsstring></argsstring>
+        <name>onStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="10" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="a00142_1aa2bd8bbaae79e1bc8d766690554fdce8" compoundref="a00047" startline="12" endline="25">MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValueEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="a00122_1aa86a48f7eebe4706706dfaae3ca4f893" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.publishTopic</definition>
+        <argsstring></argsstring>
+        <name>publishTopic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="12" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a00122_1a4fd1d6816a21959d439c3448af47789b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="14" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="a00122_1a9855d2813298bae32711270687651140" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.SetupLate</definition>
+        <argsstring>()</argsstring>
+        <name>SetupLate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="19" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="19" bodyend="23"/>
+        <references refid="a00158_1a42443cabee1dca529d99975e979a08f2" compoundref="a00059" startline="16" endline="30">MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon.GetInstance</references>
+        <references refid="a00110_1ac0eb64a79a748300664caf7c4908a688" compoundref="a00023" startline="96" endline="99">MKdev.MqttForUnity.MqttConnector.AddTopicReceiver</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00122_1ab4aa2bde3bde4da80f9e693b8929ab8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.OnReceivedMessage</definition>
+        <argsstring>(string topic, byte[] message)</argsstring>
+        <name>OnReceivedMessage</name>
+        <reimplements refid="a00102_1a1a1713dea78f19a701a2fd7800e2fca7">OnReceivedMessage</reimplements>
+        <param>
+          <type>string</type>
+          <declname>topic</declname>
+        </param>
+        <param>
+          <type>byte []</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="25" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="a00122_1a9335904c3d3a1a7ff0e972c1a5bfedc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue.compareOk</definition>
+        <argsstring>(byte[] message)</argsstring>
+        <name>compareOk</name>
+        <reimplementedby refid="a00126_1af1fde7a67482f0e3df2379a957dacacc">compareOk</reimplementedby>
+        <reimplementedby refid="a00138_1a2ff45da2076e28e7409ede84b8992fb4">compareOk</reimplementedby>
+        <reimplementedby refid="a00134_1a736cc657bbdb1c2299f84981dd1ef704">compareOk</reimplementedby>
+        <reimplementedby refid="a00130_1a7162d52c9f215c5b427dd40aa056c30b">compareOk</reimplementedby>
+        <param>
+          <type>byte []</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicArives</label>
+        <link refid="a00126"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicStringValue</label>
+        <link refid="a00138"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue</label>
+        <link refid="a00134"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IMqttTopicReceiver</label>
+        <link refid="a00102"/>
+      </node>
+      <node id="1">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicFloatValue</label>
+        <link refid="a00130"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue</label>
+        <link refid="a00122"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>MKdev.InteractionEvent</label>
+        <link refid="a00106"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IMqttTopicReceiver</label>
+        <link refid="a00102"/>
+      </node>
+      <node id="11">
+        <label>UnityEvent</label>
+      </node>
+      <node id="14">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="13">
+        <label>MKdev.ServerConfig.AbsServerConfig</label>
+        <link refid="a00162"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MKdev.MqttForUnity.MqttConnector</label>
+        <link refid="a00110"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+ServerConfig</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue</label>
+        <link refid="a00122"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+onStart</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>-MqttCon</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" line="6" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/AbsDoActionByMqttTopicValue.cs" bodystart="5" bodyend="34"/>
+    <listofallmembers>
+      <member refid="a00122_1a9335904c3d3a1a7ff0e972c1a5bfedc7" prot="public" virt="pure-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>compareOk</name></member>
+      <member refid="a00122_1a2a0e915c0a761eff278b6bfc95908ba0" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>MqttCon</name></member>
+      <member refid="a00122_1ab4aa2bde3bde4da80f9e693b8929ab8a" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>OnReceivedMessage</name></member>
+      <member refid="a00122_1aac6d6b031cebbd50e2e5e863397c0942" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>onStart</name></member>
+      <member refid="a00122_1aa86a48f7eebe4706706dfaae3ca4f893" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>publishTopic</name></member>
+      <member refid="a00122_1a9855d2813298bae32711270687651140" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>SetupLate</name></member>
+      <member refid="a00122_1a4fd1d6816a21959d439c3448af47789b" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::AbsDoActionByMqttTopicValue</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

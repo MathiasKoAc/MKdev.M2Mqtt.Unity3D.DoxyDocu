@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_a862500ac8fcd05aec7fa2fb9cbe9900" kind="dir">
+    <compoundname>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets</compoundname>
+    <innerdir refid="dir_7ba20577de04e78ae48a4a33fde164b8">D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/"/>
+  </compounddef>
+</doxygen>

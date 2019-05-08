@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_2e97ca210559046e1b29fd4be61cbf6a" kind="dir">
+    <compoundname>D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic</compoundname>
+    <innerfile refid="a00014">EnumMqttQualityOfService.cs</innerfile>
+    <innerfile refid="a00017">IMqttTopicReceiver.cs</innerfile>
+    <innerfile refid="a00020">InteractionEvent.cs</innerfile>
+    <innerfile refid="a00023">MqttConnector.cs</innerfile>
+    <innerfile refid="a00026">MqttTopicDoAction.cs</innerfile>
+    <innerfile refid="a00029">MqttTopicToConsole.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/"/>
+  </compounddef>
+</doxygen>

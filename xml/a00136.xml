@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00136" kind="class" language="C#" prot="public">
+    <compoundname>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</compoundname>
+    <basecompoundref refid="a00124" prot="public" virt="non-virtual">MKdev.MqttForUnity.MqttBricks.AbsDoActionByMqttTopicValue</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="a00136_1a5700262be8a36d9281cfc5d416467422" prot="public" static="no" mutable="no">
+        <type><ref refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46ae" kindref="member">EnumCompareOperator</ref></type>
+        <definition>EnumCompareOperator MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue.Compare</definition>
+        <argsstring></argsstring>
+        <name>Compare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" line="8" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a00136_1ab8fd9d52abb56ea6c4be44449779b23d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue.IntValue</definition>
+        <argsstring></argsstring>
+        <name>IntValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" line="9" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a00136_1a736cc657bbdb1c2299f84981dd1ef704" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue.compareOk</definition>
+        <argsstring>(byte[] message)</argsstring>
+        <name>compareOk</name>
+        <reimplements refid="a00124_1a9335904c3d3a1a7ff0e972c1a5bfedc7">compareOk</reimplements>
+        <param>
+          <type>byte []</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" line="11" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" bodystart="11" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>AbsDoActionByMqttTopicValue</label>
+        <link refid="a00124"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue</label>
+        <link refid="a00136"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>IMqttTopicReceiver</label>
+        <link refid="a00104"/>
+      </node>
+      <node id="87">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="90">
+        <label>AbsDoActionByMqttTopicValue</label>
+        <link refid="a00124"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>+onStart</edgelabel>
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>-MqttCon</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>MKdev.MqttForUnity.MqttBricks.DoActionByMqttTopicIntValue</label>
+        <link refid="a00136"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>MKdev.InteractionEvent</label>
+        <link refid="a00108"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>MKdev.MqttForUnity.MqttBricks.MqttConnectorSingleTon</label>
+        <link refid="a00160"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>-s_Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="92">
+        <label>IMqttTopicReceiver</label>
+        <link refid="a00104"/>
+      </node>
+      <node id="94">
+        <label>UnityEvent</label>
+      </node>
+      <node id="98">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="91">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="96">
+        <label>MqttConnector</label>
+        <link refid="a00112"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>+ServerConfig</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>MKdev.ServerConfig.AbsServerConfig</label>
+        <link refid="a00164"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" line="7" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBricks/DoActionByMqttTopicIntValue.cs" bodystart="6" bodyend="34"/>
+    <listofallmembers>
+      <member refid="a00136_1a5700262be8a36d9281cfc5d416467422" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</scope><name>Compare</name></member>
+      <member refid="a00136_1a736cc657bbdb1c2299f84981dd1ef704" prot="public" virt="virtual"><scope>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</scope><name>compareOk</name></member>
+      <member refid="a00136_1ab8fd9d52abb56ea6c4be44449779b23d" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</scope><name>IntValue</name></member>
+      <member refid="a00124_1ab4aa2bde3bde4da80f9e693b8929ab8a" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</scope><name>OnReceivedMessage</name></member>
+      <member refid="a00124_1aac6d6b031cebbd50e2e5e863397c0942" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</scope><name>onStart</name></member>
+      <member refid="a00124_1aa86a48f7eebe4706706dfaae3ca4f893" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::DoActionByMqttTopicIntValue</scope><name>publishTopic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

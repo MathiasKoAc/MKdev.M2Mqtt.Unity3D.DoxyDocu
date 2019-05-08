@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="a00011" kind="file" language="C#">
+    <compoundname>EnumStringCompareOperator.cs</compoundname>
+    <innernamespace refid="a00077">MKdev::Logic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00075" kindref="compound">MKdev</ref>.Logic</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73" kindref="member">EnumStringCompareOperator</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00077_1a1f4aaba36642fa6c1080e26fa1cd46aea465289687a70db7aa7217cc240c29f0f" kindref="member">equal</ref>,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73ab3a556017ef6a3f64182b803957cb0d5" kindref="member">equalIgnoreCase</ref>,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73a80bfff5241ffe1f0c9eb31d4e01a3581" kindref="member">notEqual</ref>,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00077_1a255f11bf8a539dee2a52285fb74b1e73a3373ea551e5f1bf751da09586f4aac9d" kindref="member">notEqualIgnoreCase</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/Logic/EnumStringCompareOperator.cs"/>
+  </compounddef>
+</doxygen>

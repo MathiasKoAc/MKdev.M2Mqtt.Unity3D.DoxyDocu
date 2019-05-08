@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="a00168">
+<title>MKdev::ServerConfig::ConfigDetail class Reference</title>
+<para>Inheritance diagram for MKdev::ServerConfig::ConfigDetail</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00167.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MKdev::ServerConfig::ConfigDetail</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="a00166.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string ServerIp</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string Username</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string Password</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="a00168_1ad2264769ad7199d4d063aef32c1ddc92">ConfigDetail</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="a00168_1a18637b2ea0da72707301099340451f60">ConfigDetail</link> (
+string serverIp, string username, string password)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="a00168_1ad2264769ad7199d4d063aef32c1ddc92">
+                <title>MKdev.ServerConfig.ConfigDetail.ConfigDetail ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="a00168_1a18637b2ea0da72707301099340451f60">
+                <title>MKdev.ServerConfig.ConfigDetail.ConfigDetail (string serverIp, string username, string password)</title> <emphasis></emphasis>
+                
+            </section>
+</section>
