@@ -87,11 +87,16 @@
     <member refid="a00112_1ae14036ba5c618737bf1d9db90c624623" kind="variable"><name>ServerConfig</name></member>
     <member refid="a00112_1aa74939b2d3140f0abd4ff83e5bb60373" kind="variable"><name>client</name></member>
     <member refid="a00112_1a8464d26b31f16aa1ee71cfd61e415329" kind="variable"><name>DictTopicReceiver</name></member>
-    <member refid="a00112_1a1807e97240011a8d4c9057223f39408e" kind="variable"><name>eventQueue</name></member>
+    <member refid="a00112_1a866d141ec685888a940a0b0bf0fafcc7" kind="variable"><name>receiverQueue</name></member>
+    <member refid="a00112_1a04165857f574d8fd5af3cd2dc7304d7b" kind="variable"><name>senderQueue</name></member>
     <member refid="a00112_1a27f034f1c1641bf97edac34fa394ddc6" kind="function"><name>Start</name></member>
     <member refid="a00112_1a4177f866f40da12d9a8753dc5391ec11" kind="function"><name>client_MqttMsgPublishReceived</name></member>
-    <member refid="a00112_1a64694beb20f25a360d26c7a68a7997c3" kind="function"><name>workQueueAndCall</name></member>
-    <member refid="a00112_1a5c3c0346f1f3d04201a69246e8c426b0" kind="function"><name>PublishMessage</name></member>
+    <member refid="a00112_1a98b94c35a8fcb45043c9db73fd54e811" kind="function"><name>InitAndStartInnerCoroutines</name></member>
+    <member refid="a00112_1a5f5f154c8c1514d1b1e7304c6ace503d" kind="function"><name>StartInnerCoroutines</name></member>
+    <member refid="a00112_1a154d77edea29095043cbc6174e2935e3" kind="function"><name>StopInnerCoroutines</name></member>
+    <member refid="a00112_1ac973e184961c8da35f49fbf15a13aa49" kind="function"><name>workReceiverQueueAndCall</name></member>
+    <member refid="a00112_1ab040a725686faee20cf4064a54883b6b" kind="function"><name>workSenderQueueAndSend</name></member>
+    <member refid="a00112_1a55c1be26190e51cc1637082667a54cdb" kind="function"><name>PublishMessage</name></member>
     <member refid="a00112_1ac0eb64a79a748300664caf7c4908a688" kind="function"><name>AddTopicReceiver</name></member>
     <member refid="a00112_1aeaabea91149d8efec82685dac108beef" kind="function"><name>AddTopicReceiver</name></member>
   </compound>
@@ -155,7 +160,7 @@
   </compound>
   <compound refid="a00083" kind="namespace"><name>System</name>
   </compound>
-  <compound refid="a00091" kind="namespace"><name>System::Collections</name>
+  <compound refid="a00089" kind="namespace"><name>System::Collections</name>
   </compound>
   <compound refid="a00084" kind="namespace"><name>System::Collections::Generic</name>
   </compound>
@@ -171,9 +176,9 @@
   </compound>
   <compound refid="a00088" kind="namespace"><name>UnityEngine::Events</name>
   </compound>
-  <compound refid="a00089" kind="namespace"><name>uPLibrary::Networking::M2Mqtt</name>
+  <compound refid="a00090" kind="namespace"><name>uPLibrary::Networking::M2Mqtt</name>
   </compound>
-  <compound refid="a00090" kind="namespace"><name>uPLibrary::Networking::M2Mqtt::Messages</name>
+  <compound refid="a00091" kind="namespace"><name>uPLibrary::Networking::M2Mqtt::Messages</name>
   </compound>
   <compound refid="a00002" kind="file"><name>CreateObject.cs</name>
   </compound>

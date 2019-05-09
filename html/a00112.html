@@ -94,7 +94,7 @@ Inheritance diagram for MKdev.MqttForUnity.MqttConnector:</div>
 <div class="dyncontent">
 <div class="center"><img src="a00111.png" border="0" usemap="#_m_kdev_8_mqtt_for_unity_8_mqtt_connector_inherit__map" alt="Inheritance graph"/></div>
 <map name="_m_kdev_8_mqtt_for_unity_8_mqtt_connector_inherit__map" id="_m_kdev_8_mqtt_for_unity_8_mqtt_connector_inherit__map">
-<area shape="rect" id="node3" href="a00160.html" title="{MKdev.MqttForUnity.MqttBricks.\lMqttConnectorSingleTon\n|&#45; s_Instance\l|+ GetInstance()\l&#45; OnApplicationQuit()\l}" alt="" coords="15,373,225,480"/>
+<area shape="rect" id="node3" href="a00160.html" title="{MKdev.MqttForUnity.MqttBricks.\lMqttConnectorSingleTon\n|&#45; s_Instance\l|+ GetInstance()\l&#45; OnApplicationQuit()\l}" alt="" coords="15,447,225,553"/>
 </map>
 </div>
 <div class="dynheader">
@@ -108,8 +108,8 @@ Collaboration diagram for MKdev.MqttForUnity.MqttConnector:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5c3c0346f1f3d04201a69246e8c426b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a5c3c0346f1f3d04201a69246e8c426b0">PublishMessage</a> (string topic, string Message, <a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</a> MqttQOS_Level=<a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</a>)</td></tr>
-<tr class="separator:a5c3c0346f1f3d04201a69246e8c426b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c1be26190e51cc1637082667a54cdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a55c1be26190e51cc1637082667a54cdb">PublishMessage</a> (string topic, string Message, <a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</a> MqttQOS_Level=<a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</a>, bool retain=false)</td></tr>
+<tr class="separator:a55c1be26190e51cc1637082667a54cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0eb64a79a748300664caf7c4908a688"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#ac0eb64a79a748300664caf7c4908a688">AddTopicReceiver</a> (string topic, <a class="el" href="a00104.html">IMqttTopicReceiver</a> receiver, <a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</a> MqttQOS_Level=<a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</a>)</td></tr>
 <tr class="separator:ac0eb64a79a748300664caf7c4908a688"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaabea91149d8efec82685dac108beef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#aeaabea91149d8efec82685dac108beef">AddTopicReceiver</a> (string topic, <a class="el" href="a00104.html">IMqttTopicReceiver</a> receiver, byte MqttQOS_Level)</td></tr>
@@ -126,8 +126,16 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a27f034f1c1641bf97edac34fa394ddc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4177f866f40da12d9a8753dc5391ec11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a4177f866f40da12d9a8753dc5391ec11">client_MqttMsgPublishReceived</a> (object sender, MqttMsgPublishEventArgs e)</td></tr>
 <tr class="separator:a4177f866f40da12d9a8753dc5391ec11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64694beb20f25a360d26c7a68a7997c3"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a64694beb20f25a360d26c7a68a7997c3">workQueueAndCall</a> ()</td></tr>
-<tr class="separator:a64694beb20f25a360d26c7a68a7997c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b94c35a8fcb45043c9db73fd54e811"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a98b94c35a8fcb45043c9db73fd54e811">InitAndStartInnerCoroutines</a> ()</td></tr>
+<tr class="separator:a98b94c35a8fcb45043c9db73fd54e811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5f154c8c1514d1b1e7304c6ace503d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a5f5f154c8c1514d1b1e7304c6ace503d">StartInnerCoroutines</a> ()</td></tr>
+<tr class="separator:a5f5f154c8c1514d1b1e7304c6ace503d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154d77edea29095043cbc6174e2935e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a154d77edea29095043cbc6174e2935e3">StopInnerCoroutines</a> ()</td></tr>
+<tr class="separator:a154d77edea29095043cbc6174e2935e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac973e184961c8da35f49fbf15a13aa49"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#ac973e184961c8da35f49fbf15a13aa49">workReceiverQueueAndCall</a> ()</td></tr>
+<tr class="separator:ac973e184961c8da35f49fbf15a13aa49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab040a725686faee20cf4064a54883b6b"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#ab040a725686faee20cf4064a54883b6b">workSenderQueueAndSend</a> ()</td></tr>
+<tr class="separator:ab040a725686faee20cf4064a54883b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -135,11 +143,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa74939b2d3140f0abd4ff83e5bb60373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8464d26b31f16aa1ee71cfd61e415329"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, List&lt; <a class="el" href="a00104.html">IMqttTopicReceiver</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a8464d26b31f16aa1ee71cfd61e415329">DictTopicReceiver</a></td></tr>
 <tr class="separator:a8464d26b31f16aa1ee71cfd61e415329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1807e97240011a8d4c9057223f39408e"><td class="memItemLeft" align="right" valign="top">Queue&lt; MqttMsgPublishEventArgs &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a1807e97240011a8d4c9057223f39408e">eventQueue</a></td></tr>
-<tr class="separator:a1807e97240011a8d4c9057223f39408e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a866d141ec685888a940a0b0bf0fafcc7"><td class="memItemLeft" align="right" valign="top">Queue&lt; MqttMsgPublishEventArgs &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a866d141ec685888a940a0b0bf0fafcc7">receiverQueue</a></td></tr>
+<tr class="separator:a866d141ec685888a940a0b0bf0fafcc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04165857f574d8fd5af3cd2dc7304d7b"><td class="memItemLeft" align="right" valign="top">Queue&lt; MqttMsgPublishEventArgs &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00112.html#a04165857f574d8fd5af3cd2dc7304d7b">senderQueue</a></td></tr>
+<tr class="separator:a04165857f574d8fd5af3cd2dc7304d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>It connects the UnityScene with the Broker </p>
+<div class="textblock"><p>The <a class="el" href="a00112.html">MqttConnector</a> connects the UnityScene with the MqttBroker The Mqtt Connector uses Queues to seperate the thread-shedule from the coroutine-world </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac0eb64a79a748300664caf7c4908a688"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0eb64a79a748300664caf7c4908a688">&#9670;&nbsp;</a></span>AddTopicReceiver() <span class="overload">[1/2]</span></h2>
@@ -172,6 +182,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>AddTopicReceiver added a receiver of an topic to the system. The receiver will autmaticaly called, if the topic gets a new message </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -216,6 +227,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>AddTopicReceiver added a receiver of an topic to the system. The receiver will autmaticaly called, if the topic gets a new message </p>
 
 </div>
 </div>
@@ -252,11 +264,38 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>The Methode client_MqttMsgPublishReceived is called, if a MqttMessage arrieved and put it into the receiverQueue client_MqttMsgPublishReceived seperats the thread which puts the message in the queue from working the message </p>
 
 </div>
 </div>
-<a id="a5c3c0346f1f3d04201a69246e8c426b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c3c0346f1f3d04201a69246e8c426b0">&#9670;&nbsp;</a></span>PublishMessage()</h2>
+<a id="a98b94c35a8fcb45043c9db73fd54e811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98b94c35a8fcb45043c9db73fd54e811">&#9670;&nbsp;</a></span>InitAndStartInnerCoroutines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MKdev.MqttForUnity.MqttConnector.InitAndStartInnerCoroutines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inits and starts all InnerCoroutines </p>
+
+</div>
+</div>
+<a id="a55c1be26190e51cc1637082667a54cdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c1be26190e51cc1637082667a54cdb">&#9670;&nbsp;</a></span>PublishMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +316,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</a>&#160;</td>
-          <td class="paramname"><em>MqttQOS_Level</em> = <code><a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</a></code>&#160;</td>
+          <td class="paramname"><em>MqttQOS_Level</em> = <code><a class="el" href="a00076.html#a17d08c4793f11a9082c9806004c46379a65908b07c278853e773c6baf4c3436e3">EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>retain</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -286,11 +331,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>PublishMessage enqueues the Message of a Topic in the Queue and the message will automaticaly, concurrently sended </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00112_a5c3c0346f1f3d04201a69246e8c426b0_icgraph.png" border="0" usemap="#a00112_a5c3c0346f1f3d04201a69246e8c426b0_icgraph" alt=""/></div>
-<map name="a00112_a5c3c0346f1f3d04201a69246e8c426b0_icgraph" id="a00112_a5c3c0346f1f3d04201a69246e8c426b0_icgraph">
+<div class="center"><img src="a00112_a55c1be26190e51cc1637082667a54cdb_icgraph.png" border="0" usemap="#a00112_a55c1be26190e51cc1637082667a54cdb_icgraph" alt=""/></div>
+<map name="a00112_a55c1be26190e51cc1637082667a54cdb_icgraph" id="a00112_a55c1be26190e51cc1637082667a54cdb_icgraph">
 <area shape="rect" id="node2" href="a00100.html#ac08746a89d2202aaea3692709174a7bb" title="MKdev.MqttForUnity.MqttExample.\lOnGuiMqttBsp.OnGUI" alt="" coords="287,5,512,47"/>
 </map>
 </div>
@@ -332,8 +378,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a64694beb20f25a360d26c7a68a7997c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64694beb20f25a360d26c7a68a7997c3">&#9670;&nbsp;</a></span>workQueueAndCall()</h2>
+<a id="a5f5f154c8c1514d1b1e7304c6ace503d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f5f154c8c1514d1b1e7304c6ace503d">&#9670;&nbsp;</a></span>StartInnerCoroutines()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +388,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IEnumerator MKdev.MqttForUnity.MqttConnector.workQueueAndCall </td>
+          <td class="memname">void MKdev.MqttForUnity.MqttConnector.StartInnerCoroutines </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -354,14 +400,93 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Starts all InnerCoroutines </p>
+
+</div>
+</div>
+<a id="a154d77edea29095043cbc6174e2935e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154d77edea29095043cbc6174e2935e3">&#9670;&nbsp;</a></span>StopInnerCoroutines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MKdev.MqttForUnity.MqttConnector.StopInnerCoroutines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stops all InnerCoroutines </p>
+
+</div>
+</div>
+<a id="ac973e184961c8da35f49fbf15a13aa49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac973e184961c8da35f49fbf15a13aa49">&#9670;&nbsp;</a></span>workReceiverQueueAndCall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator MKdev.MqttForUnity.MqttConnector.workReceiverQueueAndCall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>workReveiverQueueAndCall is a Inner Coroutine, which loops over the ReceivingQueue to call the Subscriper in this App workSenderQueueAndSend seperats the thread which puts the message in the queue from working the message </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00112_a64694beb20f25a360d26c7a68a7997c3_cgraph.png" border="0" usemap="#a00112_a64694beb20f25a360d26c7a68a7997c3_cgraph" alt=""/></div>
-<map name="a00112_a64694beb20f25a360d26c7a68a7997c3_cgraph" id="a00112_a64694beb20f25a360d26c7a68a7997c3_cgraph">
+<div class="center"><img src="a00112_ac973e184961c8da35f49fbf15a13aa49_cgraph.png" border="0" usemap="#a00112_ac973e184961c8da35f49fbf15a13aa49_cgraph" alt=""/></div>
+<map name="a00112_ac973e184961c8da35f49fbf15a13aa49_cgraph" id="a00112_ac973e184961c8da35f49fbf15a13aa49_cgraph">
 <area shape="rect" id="node2" href="a00104.html#a1a1713dea78f19a701a2fd7800e2fca7" title="MKdev.MqttForUnity.IMqtt\lTopicReceiver.OnReceivedMessage" alt="" coords="313,5,541,47"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="ab040a725686faee20cf4064a54883b6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab040a725686faee20cf4064a54883b6b">&#9670;&nbsp;</a></span>workSenderQueueAndSend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator MKdev.MqttForUnity.MqttConnector.workSenderQueueAndSend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>workSenderQueueAndSend is a Inner Coroutine, which loops over the senderQueue to send a Message if there is one workSenderQueueAndSend seperats the call to send from the sending its self </p>
 
 </div>
 </div>
@@ -410,8 +535,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a1807e97240011a8d4c9057223f39408e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1807e97240011a8d4c9057223f39408e">&#9670;&nbsp;</a></span>eventQueue</h2>
+<a id="a866d141ec685888a940a0b0bf0fafcc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a866d141ec685888a940a0b0bf0fafcc7">&#9670;&nbsp;</a></span>receiverQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +545,29 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Queue&lt;MqttMsgPublishEventArgs&gt; MKdev.MqttForUnity.MqttConnector.eventQueue</td>
+          <td class="memname">Queue&lt;MqttMsgPublishEventArgs&gt; MKdev.MqttForUnity.MqttConnector.receiverQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04165857f574d8fd5af3cd2dc7304d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04165857f574d8fd5af3cd2dc7304d7b">&#9670;&nbsp;</a></span>senderQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Queue&lt;MqttMsgPublishEventArgs&gt; MKdev.MqttForUnity.MqttConnector.senderQueue</td>
         </tr>
       </table>
   </td>

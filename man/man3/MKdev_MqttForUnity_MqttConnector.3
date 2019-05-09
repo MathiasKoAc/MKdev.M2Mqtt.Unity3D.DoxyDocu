@@ -1,4 +1,4 @@
-.TH "MKdev.MqttForUnity.MqttConnector" 3 "Wed May 8 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
+.TH "MKdev.MqttForUnity.MqttConnector" 3 "Thu May 9 2019" "MKdev.M2Mqtt" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -14,7 +14,7 @@ Inherited by \fBMKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\fP\&.
 
 .in +1c
 .ti -1c
-.RI "void \fBPublishMessage\fP (string topic, string Message, \fBEnumMqttQualityOfService\fP MqttQOS_Level=\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP)"
+.RI "void \fBPublishMessage\fP (string topic, string Message, \fBEnumMqttQualityOfService\fP MqttQOS_Level=\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP, bool retain=false)"
 .br
 .ti -1c
 .RI "void \fBAddTopicReceiver\fP (string topic, \fBIMqttTopicReceiver\fP receiver, \fBEnumMqttQualityOfService\fP MqttQOS_Level=\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP)"
@@ -40,7 +40,19 @@ Inherited by \fBMKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\fP\&.
 .RI "void \fBclient_MqttMsgPublishReceived\fP (object sender, MqttMsgPublishEventArgs e)"
 .br
 .ti -1c
-.RI "IEnumerator \fBworkQueueAndCall\fP ()"
+.RI "void \fBInitAndStartInnerCoroutines\fP ()"
+.br
+.ti -1c
+.RI "void \fBStartInnerCoroutines\fP ()"
+.br
+.ti -1c
+.RI "void \fBStopInnerCoroutines\fP ()"
+.br
+.ti -1c
+.RI "IEnumerator \fBworkReceiverQueueAndCall\fP ()"
+.br
+.ti -1c
+.RI "IEnumerator \fBworkSenderQueueAndSend\fP ()"
 .br
 .in -1c
 .SS "Private Attributes"
@@ -53,33 +65,46 @@ Inherited by \fBMKdev\&.MqttForUnity\&.MqttBricks\&.MqttConnectorSingleTon\fP\&.
 .RI "Dictionary< string, List< \fBIMqttTopicReceiver\fP > > \fBDictTopicReceiver\fP"
 .br
 .ti -1c
-.RI "Queue< MqttMsgPublishEventArgs > \fBeventQueue\fP"
+.RI "Queue< MqttMsgPublishEventArgs > \fBreceiverQueue\fP"
+.br
+.ti -1c
+.RI "Queue< MqttMsgPublishEventArgs > \fBsenderQueue\fP"
 .br
 .in -1c
 .SH "Detailed Description"
 .PP 
-It connects the UnityScene with the Broker 
+The \fBMqttConnector\fP connects the UnityScene with the MqttBroker The Mqtt Connector uses Queues to seperate the thread-shedule from the coroutine-world 
 .SH "Member Function Documentation"
 .PP 
 .SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.AddTopicReceiver (string topic, \fBIMqttTopicReceiver\fP receiver, \fBEnumMqttQualityOfService\fP MqttQOS_Level = \fC\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP\fP)"
-
+AddTopicReceiver added a receiver of an topic to the system\&. The receiver will autmaticaly called, if the topic gets a new message 
 .SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.AddTopicReceiver (string topic, \fBIMqttTopicReceiver\fP receiver, byte MqttQOS_Level)"
-
+AddTopicReceiver added a receiver of an topic to the system\&. The receiver will autmaticaly called, if the topic gets a new message 
 .SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.client_MqttMsgPublishReceived (object sender, MqttMsgPublishEventArgs e)\fC [private]\fP"
-
-.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.PublishMessage (string topic, string Message, \fBEnumMqttQualityOfService\fP MqttQOS_Level = \fC\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP\fP)"
-
+The Methode client_MqttMsgPublishReceived is called, if a MqttMessage arrieved and put it into the receiverQueue client_MqttMsgPublishReceived seperats the thread which puts the message in the queue from working the message 
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.InitAndStartInnerCoroutines ()\fC [private]\fP"
+Inits and starts all InnerCoroutines 
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.PublishMessage (string topic, string Message, \fBEnumMqttQualityOfService\fP MqttQOS_Level = \fC\fBEnumMqttQualityOfService\&.QOS_LEVEL_EXACTLY_ONCE\fP\fP, bool retain = \fCfalse\fP)"
+PublishMessage enqueues the Message of a Topic in the Queue and the message will automaticaly, concurrently sended 
 .SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.Start ()\fC [private]\fP"
 
-.SS "IEnumerator MKdev\&.MqttForUnity\&.MqttConnector\&.workQueueAndCall ()\fC [private]\fP"
-
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.StartInnerCoroutines ()\fC [private]\fP"
+Starts all InnerCoroutines 
+.SS "void MKdev\&.MqttForUnity\&.MqttConnector\&.StopInnerCoroutines ()\fC [private]\fP"
+Stops all InnerCoroutines 
+.SS "IEnumerator MKdev\&.MqttForUnity\&.MqttConnector\&.workReceiverQueueAndCall ()\fC [private]\fP"
+workReveiverQueueAndCall is a Inner Coroutine, which loops over the ReceivingQueue to call the Subscriper in this App workSenderQueueAndSend seperats the thread which puts the message in the queue from working the message 
+.SS "IEnumerator MKdev\&.MqttForUnity\&.MqttConnector\&.workSenderQueueAndSend ()\fC [private]\fP"
+workSenderQueueAndSend is a Inner Coroutine, which loops over the senderQueue to send a Message if there is one workSenderQueueAndSend seperats the call to send from the sending its self 
 .SH "Member Data Documentation"
 .PP 
 .SS "MqttClient MKdev\&.MqttForUnity\&.MqttConnector\&.client\fC [private]\fP"
 
 .SS "Dictionary<string, List<\fBIMqttTopicReceiver\fP> > MKdev\&.MqttForUnity\&.MqttConnector\&.DictTopicReceiver\fC [private]\fP"
 
-.SS "Queue<MqttMsgPublishEventArgs> MKdev\&.MqttForUnity\&.MqttConnector\&.eventQueue\fC [private]\fP"
+.SS "Queue<MqttMsgPublishEventArgs> MKdev\&.MqttForUnity\&.MqttConnector\&.receiverQueue\fC [private]\fP"
+
+.SS "Queue<MqttMsgPublishEventArgs> MKdev\&.MqttForUnity\&.MqttConnector\&.senderQueue\fC [private]\fP"
 
 .SS "\fBAbsServerConfig\fP MKdev\&.MqttForUnity\&.MqttConnector\&.ServerConfig"
 

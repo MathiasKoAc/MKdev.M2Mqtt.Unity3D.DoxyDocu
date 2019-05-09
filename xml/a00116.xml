@@ -73,7 +73,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttTopicDoAction.cs" line="19" column="1" bodyfile="D:/workspace/Master-Pulls/MKdev.M2Mqtt.Unity3D/Assets/MKdev/MqttForUnity/Code/MqttBasic/MqttTopicDoAction.cs" bodystart="19" bodyend="22"/>
-        <references refid="a00112_1ac0eb64a79a748300664caf7c4908a688" compoundref="a00023" startline="96" endline="99">MKdev.MqttForUnity.MqttConnector.AddTopicReceiver</references>
+        <references refid="a00112_1ac0eb64a79a748300664caf7c4908a688" compoundref="a00023" startline="161" endline="164">MKdev.MqttForUnity.MqttConnector.AddTopicReceiver</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

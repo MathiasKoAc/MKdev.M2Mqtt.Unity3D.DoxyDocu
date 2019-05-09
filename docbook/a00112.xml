@@ -52,7 +52,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Queue&lt; MqttMsgPublishEventArgs &gt; eventQueue</para>
+                        <para>Queue&lt; MqttMsgPublishEventArgs &gt; receiverQueue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Queue&lt; MqttMsgPublishEventArgs &gt; senderQueue</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -78,7 +85,39 @@ object sender, MqttMsgPublishEventArgs e)</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>IEnumerator <link linkend="a00112_1a64694beb20f25a360d26c7a68a7997c3">workQueueAndCall</link> (
+                        <para>void <link linkend="a00112_1a98b94c35a8fcb45043c9db73fd54e811">InitAndStartInnerCoroutines</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00112_1a5f5f154c8c1514d1b1e7304c6ace503d">StartInnerCoroutines</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="a00112_1a154d77edea29095043cbc6174e2935e3">StopInnerCoroutines</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IEnumerator <link linkend="a00112_1ac973e184961c8da35f49fbf15a13aa49">workReceiverQueueAndCall</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>IEnumerator <link linkend="a00112_1ab040a725686faee20cf4064a54883b6b">workSenderQueueAndSend</link> (
 )</para>
                     </listitem>
                 </itemizedlist>
@@ -89,8 +128,8 @@ object sender, MqttMsgPublishEventArgs e)</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>void <link linkend="a00112_1a5c3c0346f1f3d04201a69246e8c426b0">PublishMessage</link> (
-string topic, string Message, <link linkend="a00076_1a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</link> MqttQOS_Level)</para>
+                        <para>void <link linkend="a00112_1a55c1be26190e51cc1637082667a54cdb">PublishMessage</link> (
+string topic, string Message, <link linkend="a00076_1a17d08c4793f11a9082c9806004c46379">EnumMqttQualityOfService</link> MqttQOS_Level, bool retain)</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -114,8 +153,8 @@ string topic, <link linkend="a00104">IMqttTopicReceiver</link> receiver, byte Mq
         <simplesect>
             <title>Detailed Description</title>
 
-<para>It connects the UnityScene with the Broker </para>
-                <para>Definition at line 16 of file MqttConnector.cs</para>
+<para>The <link linkend="a00112">MqttConnector</link> connects the UnityScene with the MqttBroker The Mqtt Connector uses Queues to seperate the thread-shedule from the coroutine-world </para>
+                <para>Definition at line 19 of file MqttConnector.cs</para>
                 <para>The Documentation for this struct was generated from the following file: </para>
                 <para><itemizedlist><listitem><para>MqttConnector.cs</para></listitem></itemizedlist></para>
         </simplesect>
@@ -132,21 +171,55 @@ string topic, <link linkend="a00104">IMqttTopicReceiver</link> receiver, byte Mq
             <section xml:id="a00112_1a4177f866f40da12d9a8753dc5391ec11">
                 <title>void MKdev.MqttForUnity.MqttConnector.client_MqttMsgPublishReceived (object sender, MqttMsgPublishEventArgs e)</title> <emphasis></emphasis>
                 
+<para>The Methode client_MqttMsgPublishReceived is called, if a MqttMessage arrieved and put it into the receiverQueue client_MqttMsgPublishReceived seperats the thread which puts the message in the queue from working the message </para>
+
             </section>
-            <section xml:id="a00112_1a64694beb20f25a360d26c7a68a7997c3">
-                <title>IEnumerator MKdev.MqttForUnity.MqttConnector.workQueueAndCall ()</title> <emphasis></emphasis>
+            <section xml:id="a00112_1a98b94c35a8fcb45043c9db73fd54e811">
+                <title>void MKdev.MqttForUnity.MqttConnector.InitAndStartInnerCoroutines ()</title> <emphasis></emphasis>
                 
+<para>Inits and starts all InnerCoroutines </para>
+
             </section>
-            <section xml:id="a00112_1a5c3c0346f1f3d04201a69246e8c426b0">
-                <title>void MKdev.MqttForUnity.MqttConnector.PublishMessage (string topic, string Message, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE)</title> <emphasis></emphasis>
+            <section xml:id="a00112_1a5f5f154c8c1514d1b1e7304c6ace503d">
+                <title>void MKdev.MqttForUnity.MqttConnector.StartInnerCoroutines ()</title> <emphasis></emphasis>
                 
+<para>Starts all InnerCoroutines </para>
+
+            </section>
+            <section xml:id="a00112_1a154d77edea29095043cbc6174e2935e3">
+                <title>void MKdev.MqttForUnity.MqttConnector.StopInnerCoroutines ()</title> <emphasis></emphasis>
+                
+<para>Stops all InnerCoroutines </para>
+
+            </section>
+            <section xml:id="a00112_1ac973e184961c8da35f49fbf15a13aa49">
+                <title>IEnumerator MKdev.MqttForUnity.MqttConnector.workReceiverQueueAndCall ()</title> <emphasis></emphasis>
+                
+<para>workReveiverQueueAndCall is a Inner Coroutine, which loops over the ReceivingQueue to call the Subscriper in this App workSenderQueueAndSend seperats the thread which puts the message in the queue from working the message </para>
+
+            </section>
+            <section xml:id="a00112_1ab040a725686faee20cf4064a54883b6b">
+                <title>IEnumerator MKdev.MqttForUnity.MqttConnector.workSenderQueueAndSend ()</title> <emphasis></emphasis>
+                
+<para>workSenderQueueAndSend is a Inner Coroutine, which loops over the senderQueue to send a Message if there is one workSenderQueueAndSend seperats the call to send from the sending its self </para>
+
+            </section>
+            <section xml:id="a00112_1a55c1be26190e51cc1637082667a54cdb">
+                <title>void MKdev.MqttForUnity.MqttConnector.PublishMessage (string topic, string Message, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE, bool retain=false)</title> <emphasis></emphasis>
+                
+<para>PublishMessage enqueues the Message of a Topic in the Queue and the message will automaticaly, concurrently sended </para>
+
             </section>
             <section xml:id="a00112_1ac0eb64a79a748300664caf7c4908a688">
                 <title>void MKdev.MqttForUnity.MqttConnector.AddTopicReceiver (string topic, IMqttTopicReceiver receiver, EnumMqttQualityOfService MqttQOS_Level=EnumMqttQualityOfService.QOS_LEVEL_EXACTLY_ONCE)</title> <emphasis></emphasis>
                 
+<para>AddTopicReceiver added a receiver of an topic to the system. The receiver will autmaticaly called, if the topic gets a new message </para>
+
             </section>
             <section xml:id="a00112_1aeaabea91149d8efec82685dac108beef">
                 <title>void MKdev.MqttForUnity.MqttConnector.AddTopicReceiver (string topic, IMqttTopicReceiver receiver, byte MqttQOS_Level)</title> <emphasis></emphasis>
                 
+<para>AddTopicReceiver added a receiver of an topic to the system. The receiver will autmaticaly called, if the topic gets a new message </para>
+
             </section>
 </section>

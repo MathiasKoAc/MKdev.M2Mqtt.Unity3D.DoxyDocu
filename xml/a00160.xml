@@ -109,7 +109,7 @@
       <member refid="a00112_1aeaabea91149d8efec82685dac108beef" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>AddTopicReceiver</name></member>
       <member refid="a00160_1a42443cabee1dca529d99975e979a08f2" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>GetInstance</name></member>
       <member refid="a00160_1ac380c927394bb32b1b48106e363a9bd4" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>OnApplicationQuit</name></member>
-      <member refid="a00112_1a5c3c0346f1f3d04201a69246e8c426b0" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>PublishMessage</name></member>
+      <member refid="a00112_1a55c1be26190e51cc1637082667a54cdb" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>PublishMessage</name></member>
       <member refid="a00160_1a264d201ca81de79dbc6f863e7eb51794" prot="private" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>s_Instance</name></member>
       <member refid="a00112_1ae14036ba5c618737bf1d9db90c624623" prot="public" virt="non-virtual"><scope>MKdev::MqttForUnity::MqttBricks::MqttConnectorSingleTon</scope><name>ServerConfig</name></member>
     </listofallmembers>

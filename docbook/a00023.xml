@@ -45,21 +45,21 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="a00089">uPLibrary::Networking::M2Mqtt</link></para>
+                        <para>struct <link linkend="a00089">System::Collections</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="a00090">uPLibrary::Networking::M2Mqtt::Messages</link></para>
+                        <para>struct <link linkend="a00090">uPLibrary::Networking::M2Mqtt</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="a00091">System::Collections</link></para>
+                        <para>struct <link linkend="a00091">uPLibrary::Networking::M2Mqtt::Messages</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
